@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" />
+	<title>ФИС &laquo;На Дальний Восток&raquo;</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/default.css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="js/bootstrap.js"></script>
+		<!-- Example assets -->
+	<script type="text/javascript" src="js/default.js"></script>
+	<script type="text/javascript" src="js/jquery.hoverIntent.js"></script>
+	<script type="text/javascript">
+		$(function (){
+		  $('li.mp-tn-link').hoverIntent(function(){
+		  $('.mp-topnews-block li').removeClass('active');
+		  $(this).addClass('active');
+		  var img = $(this).data('img');
+		  $('.mainslider-top img').attr('src', img);
+		})
+	})
+	</script>
+
+</head>
+<body>
+
+	<header id="nav-fixed">
+		
+		<div class="container mob-nav">
+			<div class="col-mn-l">
+				<a href="index.html" class="mlogo">
+					<img src="img/logo.svg">
+				</a>
+			</div>
+		</div>
+
+		<div class="container mp-frstnav">
+			<div class="row">
+
+				<div class="col-md-4 text-left">
+					<li class="ham-icon">
+						<button class="hamb"></button>
+						<button class="hamb-close"></button>
+				  	</li>
+				</div>
+
+				<div class="col-md-4 h-logo">
+					<a href="index.html">
+						<img src="img/logo.svg" width="310px" heihgt="64">
+					</a>
+				</div>
+
+				<ul class="col-md-4 text-right hicon">
+					<li class="nav-icon">
+						<button class="searchicon"></button>
+						<button class="searchicon-close"></button>
+				  	</li>
+					<li class="nav-icon">
+				  		<a href="#" class="accicon"></a>
+				  	</li>
+				  	<li class="nav-icon">
+						<a href="#" class="pointer"></a>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<div class="s-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 h-search">	
+						<div class="srchform">
+						  	<div id="seacrh_container"> 
+				                <div class="input-group stylish-input-group">
+				                    <input type="text" class="form-control" placeholder="Что ищем?">
+				                    <span class="input-group-addon">
+				                        <button type="submit">
+				                            Найти
+				                        </button>  
+				                    </span>
+				                </div>
+				        	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="h-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 ham-search">	
+						<div class="hambform">
+						  	<ul class="frstcat">
+								<li>
+									<a href="#"><span class="mf-icon city">Владивосток</span></a>
+								</li>
+								<li>
+									<a href="newslist.html"><span class="mf-icon dots">Новости</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon akcii">Дальний Восток</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoshop">Проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoitem">Сервисы</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon wheel">Контакты</span></a>
+								</li>
+								<li>
+									<a href="newslist.html"><span class="mf-icon dots">Новости</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon akcii">Дальний Восток</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoshop">Проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoitem">Сервисы</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon wheel">Контакты</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="container mp-secnav">
+		<div class="row">
+			<div class="col-md-8 text-left">
+				<ul class="mainnav">
+					<li class="nav-link">
+				  	<a href="newslist.html">Новости</a>
+				  </li>
+				  <li class="nav-link">
+				  	<a href="#">Сервисы</a>
+				  </li>
+				  <li class="nav-link">
+				  	<a href="#">Дальний Восток</a>
+				  </li>
+				  <li class="nav-link">
+				  	<a href="#">Возможности</a>
+				  </li>
+				  <li class="nav-link">
+				  	<a href="#">Туризм</a>
+				  </li>
+				</ul>
+			</div>
+			<div class="col-md-4 text-right">
+				<ul class="mainnav2">
+					<li class="tel-link">
+				  		<span class="telegram"></span> Канал в Telegram: <a href="#">@nadvru</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<section id="mainpage-topnews"> 	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 mainslider-top">
+					<a href="#"><img src="images/demo_s_img_01.jpg" width="100%"></a>
+				</div>
+				<div class="col-md-4">
+					<ul class="mp-topnews-block">
+						<li class="mp-tn-link active" data-img="images/demo_s_img_01.jpg">
+				  			<a href="newslist.html">Первый мед созрел на «дальневосточных гектарах» в Приморье</a>
+				  		</li>
+				  		<li class="mp-tn-link" data-img="images/demo_s_img_02.jpg">
+				  			<a href="newslist.html">500 шаров в поддержку сохраненных детских жизней запустят в небо</a>
+				  		</li>
+				  		<li class="mp-tn-link" data-img="images/demo_s_img_03.jpg">
+				  			<a href="newslist.html">Международная конференция по сохранению кулика-лопатня прошла на Чукотке</a>
+				  		</li>
+				  		<li class="mp-tn-link" data-img="images/demo_s_img_04.jpg">
+				  			<a href="newslist.html">Якутский этноквест: раскрываем тайны Земли Олонхо</a>
+				  		</li>
+				  		<li class="mp-tn-link" data-img="images/demo_s_img_05.jpg">
+				  			<a href="newslist.html">Жить и работать в Приморье: студенты из стран ближнего зарубежья выбирают российское гражданство</a>
+				  		</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mp-service-header">
+						<a href="#" class="mpsh-header">Сервисы</a>
+						<a href="#" class="mpsh-all">Все сервисы <span class="arrowicon-white"></span></a>
+					</div>
+					<div class="mp-service-icon">
+						<ul>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<img src="img/service-01.png" width="65px" height="65px">
+										<span>Получить Дальневосточный гектар</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://hcfe.ru/content/search_vacancies/" target="_blank">
+										<img src="img/service-02.png" width="65px" height="65px">
+										<span>Найти работу на Дальнем Востоке</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://map.minvr.ru" target="_blank">
+										<img src="img/service-03.png" width="65px" height="65px">
+										<span>Карта инвест-возможностей</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://hcfe.ru/move-to-dv/" target="_blank">
+										<img src="img/service-04.png" width="65px" height="65px">
+										<span>Переехать на Дальний Восток</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mp-newspost">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 col-xs-12">
+					<a href="#" class="mpnl-header">Новости</a>
+					<div class="mp-newslist">
+						<div class="mp-nl-newspost active">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Раскрыты популярные места для подачи коллективных заявок на «Дальневосточный гектар»
+							</a>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Каждый день поступает тысяча заявлений на «дальневосточный гектар»
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Свыше 160 тысяч обращений поступило на «горячую линию»
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Количество отказов на «дальневосточный гектар» сократилось почти вдвое
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								На Восточном экономическом форуме расскажут об освоении «ДВ гектара»
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Получателям «дальневосточных гектаров» рассказали о эффективных мерах поддержки
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Получатели «дальневосточных гектаров» смогут присоединиться к «Бизнес классу»
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								АРЧК ДВ приглашает узнать об особенностях выбора земельных участков
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<div class="mp-nl-newspost">
+							<a href="http://primdesign.ru/nadv/news.html">
+								Свыше 160 тысяч обращений поступило на «горячую линию» Администрации Приморского края
+							</a>
+							<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+						</div>
+						<a href="http://primdesign.ru/nadv/news.html" class="readmore">Все новости <span class="arrowicon-white"></span></a>
+					</div>
+
+					<div class="mp-sending">
+						<h3>Рассылка новостей</h3>
+						<input class="form-control" placeholder="Введите Ваш email" type="text">
+						<button type="submit">Подписаться</button>
+					</div>
+
+				</div>
+
+				<div class="col-md-8 col-xs-12">
+					<div class="row">
+
+						<div class="col-md-12 col-xs-12">
+							<div class="mp-tn-blk">
+								<div class="img-mp-tn">
+									<div class="image-cat-bg">
+										<a href="#">Новости</a>
+									</div>
+									<a href="http://primdesign.ru/nadv/news.html">
+										<img src="images/demo-img-01.jpg">
+										<div class="mp-tn-shadow">
+											<div class="mp-tn-icons">
+												<span class="icon-cloud-white"></span> 12
+												<span class="icon-eye-white"></span> 3452
+											</div>
+											<span class="mp-tn-text-b">День рождения Камчатского края отмечают народными гуляниями</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-6 col-xs-12">
+							<div class="image-cat-bg">
+									<a href="#">Видеосюжет</a>
+								</div>
+							<a href="http://primdesign.ru/nadv/news.html" class="mp-newsblk">
+								<div class="img-black-bg"><img src="images/demo-img-02.jpg" width="100%"></div>
+								<div class="mp-tn-icons">
+									<span class="icon-cloud-white"></span> 12
+									<span class="icon-eye-white"></span> 3452
+								</div>
+								<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+								Александр Галушка проинспектировал ход создания ТОР
+							</a>
+						</div>
+
+						<div class="col-md-6 col-xs-12">
+							<div class="image-cat-bg">
+									<a href="#">Новости</a>
+							</div>
+							<a href="http://primdesign.ru/nadv/news.html" class="mp-newsblk">
+								<div class="img-black-bg"><img src="images/demo-img-03.jpg" width="100%"></div>
+								<div class="mp-tn-icons">
+									<span class="icon-cloud-white"></span> 12
+									<span class="icon-eye-white"></span> 3452
+								</div>
+								<div class="mp-nl-date-bg">11 марта 2017, 12:00</div>
+								В Хабаровске прошла встреча с получателями «дальневосточного гектара»
+							</a>
+						</div>
+
+						<div class="col-md-6 col-xs-12">
+							<div class="deflt-blk box-opros">
+								<div class="mp-mn-post">
+									<h3>Как вы относитесь к аттракциону с лошадьми на Мемориальном комплексе «Боевая слава ТОФ»?</h3>
+									<div class="labelscroll">
+										<label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Я против
+								    </label><br>
+								    <label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Я не против
+								    </label><br>
+								    <label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Мне все равно
+								    </label><br>
+								    <label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Я против
+								    </label><br>
+								    <label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Я не против
+								    </label><br>
+								    <label class="checkbox-inline">
+								        <input id="inlineCheckbox1" value="option1" type="checkbox">Мне все равно
+								    </label><br>
+								  </div>
+								</div>
+								<div class="d-blk-btn-w">
+									<button class="btn btn-pm-default" type="button">
+										<span class="button__inner">
+											<span class="button__text">Проголосовать</span>
+										</span>
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="blk-cards col-md-6 col-xs-12">
+							<div class="image-cat-bg">
+									<a href="#">8 карточек</a>
+							</div>
+							<a href="http://primdesign.ru/nadv/news.html" class="mp-newsblk">
+								<div class="img-black-bg"><img src="images/demo-img-04.jpg" width="100%"></div>
+								<div class="mp-tn-icons">
+									<span class="icon-cloud-white"></span> 12
+									<span class="icon-eye-white"></span> 3452
+								</div>
+								<div class="cards-bg">
+								<img src="img/wave.svg" width="auto" height="70px">
+								Юрий Трутнев: резидентами ТОР в Якутии стали 30 компаний
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section>
+
+	<section id="mp-b-blk">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<a href="http://медиасаммит.рус"><img src="images/ms-b.jpg" width="100%"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mp-stories">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-xs-12">
+					<div class="mp-lt-blk">
+						<div class="img-mp-tn">
+							<div class="image-cat-bg">
+								<a href="#">Проект</a>
+							</div>
+							<ul class="themes-text">
+								<li>
+									<a href="#">
+										Новые поселения для владельцев "дальневосточных гектаров" предложили создавать в Приамурье
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Раскрыты популярные места для подачи коллективных заявок на «Дальневосточный гектар»
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Раскрыты популярные места для подачи коллективных заявок на «Дальневосточный гектар» 
+									</a>
+								</li>
+							</ul>
+							<a href="http://primdesign.ru/nadv/news.html">
+								<img src="images/demo-img-03.jpg">
+								<div class="mp-tn-shadow">
+									<span class="mp-tn-text-b">«Клады Дальнего востока» название в три строки</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xs-12">
+					<div class="mp-st-blk">
+						<div class="img-mp-tn">
+							<div class="image-cat-bg">
+								<a href="#">Интервью</a>
+							</div>
+							<a href="http://primdesign.ru/nadv/news.html">
+								<img src="images/demo-img-07.jpg">
+								<div class="mp-tn-shadow">
+									<div class="mp-tn-icons">
+										<span class="icon-cloud-white"></span> 12
+										<span class="icon-eye-white"></span> 3452
+									</div>
+									<span class="mp-tn-text-b">Александр Галушка: «Нужно создать условия, чтобы люди приезжали на Дальний Восток, создавали здесь семьи, были счастливы»</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-slick">
+		<div class="container">
+			<div class="row">
+
+					<div class="autoplay">
+					  <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-05.jpg"></p>
+					  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+					  	</a>
+					  </div>
+					 <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-02.jpg"></p>
+					  		<span>Александр Галушка проинспектировал ход создания ТОР</span>
+					  	</a>
+					  </div>
+					  <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-03.jpg"></p>
+					  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+					  	</a>
+					  </div>
+					  <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-05.jpg"></p>
+					  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+					  	</a>
+					  </div>
+					 <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-06.jpg"></p>
+					  		<span>Юрий Трутнев: резидентами ТОР в Якутии стали 30 компаний</span>
+					  	</a>
+					  </div>
+					  <div>
+					  	<a href="#">
+					  		<p><img src="images/demo-img-03.jpg"></p>
+					  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+					  	</a>
+					  </div>
+					</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mp-service-header">
+						<a href="#" class="mpsh-header">Самое читаемое</a>
+					</div>
+					<div class="mp-read-icon">
+						<ul>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">1</div>
+										<span>«Дальневосточный гектар» можно будет оформить в любом МФЦ</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">2</div>
+										<span>Фестиваль инклюзивного танца впервые пройдет в Хабаровском крае</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">3</div>
+										<span>Уникальное производство ореха кешью открыли в Cвободном порту Владивосток</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">4</div>
+										<span>Уникальное производство ореха кешью открыли в Cвободном порту Владивосток</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">5</div>
+										<span>«Дальневосточный гектар» можно будет оформить в любом МФЦ</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="service-icon">
+									<a href="http://надальнийвосток.рф" target="_blank">
+										<div class="cifraicon">6</div>
+										<span>Фестиваль инклюзивного танца впервые пройдет в Хабаровском крае</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mp-stories">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-6 col-xs-12">
+					<div class="mp-st-blk">
+						<div class="img-mp-tn">
+							<div class="image-cat-bg">
+								<a href="#">История</a>
+							</div>
+							<a href="http://primdesign.ru/nadv/news.html">
+								<img src="images/demo-img-07.jpg">
+								<div class="mp-tn-shadow">
+									<div class="mp-tn-icons">
+										<span class="icon-cloud-white"></span> 12
+										<span class="icon-eye-white"></span> 3452
+									</div>
+									<span class="mp-tn-text-b">Александр Галушка: «Нужно создать условия, чтобы люди приезжали на Дальний Восток, создавали здесь семьи, были счастливы»</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-xs-12">
+					<div class="mp-st-blk">
+						<div class="img-mp-tn">
+							<div class="image-cat-bg">
+								<a href="#">Фоторепортаж</a>
+							</div>
+							<a href="http://primdesign.ru/nadv/news.html">
+								<img src="images/demo-img-01.jpg">
+								<div class="mp-tn-shadow">
+									<div class="mp-tn-icons">
+										<span class="icon-cloud-white"></span> 12
+										<span class="icon-eye-white"></span> 3452
+									</div>
+									<span class="mp-tn-text-b">Юрий Трутнев на МедиаСаммите - об игорной зоне, погранпереходах и проблемах ДВ-гектара</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mp-newsblocks">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-4 col-xs-12 nvb-list">
+					<div>
+				  	<a href="#">
+				  		<p><img src="images/demo-img-05.jpg"></p>
+				  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+				  	</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12 nvb-list">
+					<div>
+				  	<a href="#">
+				  		<p><img src="images/demo-img-04.jpg"></p>
+				  		<span>Юрий Трутнев: резидентами ТОР в Якутии стали 30 компаний</span>
+				  	</a>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12 nvb-list">
+					<div>
+				  	<a href="#">
+				  		<p><img src="images/demo-img-03.jpg"></p>
+				  		<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+				  	</a>
+					</div>
+				</div>
+
+				<div class="col-md-12 col-xs-12">
+					<div class="loadmore">
+						<a href="#">Загрузить еще</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="mp-logos"> 	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="logos-blk-size">
+						<a href="#" class="logos-blk">
+							<img src="img/m1.svg">
+							minvir.ru
+						</a>
+					</div>
+					<div class="logos-blk-size">
+						<a href="#" class="logos-blk">
+							<img src="img/m2.svg">
+							investvostok.ru
+						</a>
+					</div>
+					<div class="logos-blk-size">
+						<a href="#" class="logos-blk">
+							<img src="img/m3.svg">
+							hcfe.ru
+						</a>
+					</div>
+					<div class="logos-blk-size">
+						<a href="#" class="logos-blk">
+							<img src="img/m4.svg">
+							erdc.ru
+						</a>
+					</div>
+					<div class="logos-blk-size">
+						<a href="#" class="logos-blk">
+							<img src="img/m5.svg">
+							fondvostok.ru
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="f-ot">
+						<ul class="fnav col-xs-6">
+							<li>Новости</li>
+							<li></li>
+							<li><a href="#">Фоторепортажи</a></li>
+							<li><a href="#">Видео</a></li>
+							<li><a href="#">Инфографика</a></li>
+							<li><a href="#">Публикации</a></li>
+							<li><a href="#">Интервью</a></li>
+							<li><a href="#">Цифры, цитаты, факты</a></li>
+						</ul>
+						<ul class="fnav col-xs-6">
+							<li>Проекты</li>
+							<li></li>
+							<li><a href="#">ТОРы</a></li>
+							<li><a href="#">Дальневосточный гектар</a></li>
+							<li><a href="#">Свободные порты</a></li>
+							<li><a href="#">Развитие приграничных территорий</a></li>
+							<li><a href="#">Инвестпроекты ГЧП БЕЗ ГЧП</a></li>
+						</ul>
+						<ul class="fnav col-xs-6">
+							<li><a href="#">Вопрос ответ</a></li>
+							<li><a href="#">Опросы</a></li>
+							<li><a href="#">Картотека документов</a></li>
+							<li><a href="#">Получить ДВ-гектар</a></li>
+							<li><a href="#">Бизнес-планы</a></li>
+							<li><a href="#">Инвестиционная карта</a></li>
+							<li><a href="#">Инвестиционные возможности</a></li>
+						</ul>
+						<ul class="fnav col-xs-6">
+							<li><a href="#">Работа на Дальнем Востоке</a></li>
+							<li><a href="#">Консультация по трудовому праву </a></li>
+							<li><a href="#">Переехать на Дальний Восток</a></li>
+							<li><a href="#">Услуги для работодателя</a></li>
+							<li><a href="#">Разместить вакансию</a></li>
+							<li><a href="#">Меры поддержки</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-10 copyright">
+					© 2017 Министерство Российской Федерации по развитию Дальнего Востока.
+				</div>
+				<div class="col-md-2 counters">
+
+
+	
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
+
+
