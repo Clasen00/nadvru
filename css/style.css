@@ -497,8 +497,8 @@ header.active {
 	border: 1px solid #a7cb6f;
 	border-radius: 3px;
 	display: inline-block;
-	margin: 30px auto 0px;
-	padding: 4px 10px;
+	margin: 28px auto 0px;
+	padding: 6px 10px;
 	color: #679f60;
 	font-size: 16px;
 	-moz-transition: margin 0.3s ease-out, font-size 0.3s ease-out;
@@ -508,12 +508,16 @@ header.active {
 }
 
 #nav-fixed.active .logolable {
-	margin: 15px auto 0px;
+	margin: 12px auto 0px;
 	font-size: 12px;
 	-moz-transition: margin 0.3s ease-out, font-size 0.3s ease-out;
 	-o-transition: margin 0.3s ease-out, font-size 0.3s ease-out;
 	-webkit-transition: 0.3s ease-out;
 	transition: margin 0.3s ease-out, font-size 0.3s ease-out;
+}
+
+#nav-fixed .dvgbtn {
+
 }
 
 #nav-fixed .logolable:hover {
@@ -1114,7 +1118,7 @@ nav .navbar-nav li a {
 	color: #73aee0;
 	font-size: 15px;
 	padding: 10px 15px;
-	border: 1px solid #f2f2f2;
+	border: 1px solid #73aee0;
 	display: inline-block;
 	width: 100%;
 }
@@ -1203,6 +1207,37 @@ nav .navbar-nav li a {
 
 #infopages.page-gektar .page-info-right .info-blk a p {
 
+}
+
+#infopages.page-gektar .page-info-right .practice-in h2 {
+	font-size: 20px;
+	margin: 0;
+	padding: 10px 0 20px 0;
+}
+
+#infopages.page-gektar .page-info-right .practice-in img {
+	margin-bottom: 30px;
+}
+
+#infopages.page-gektar .page-info-right .practice-r {
+	font-size: 14px;
+	color: #808080;
+}
+
+#infopages.page-gektar .page-info-right .practice-r .pdficn {
+    background: url("../img/pdf.png") no-repeat left center / 25px;
+    padding: 10px 0 10px 40px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#infopages.page-gektar .page-info-right .practice-r p {
+	margin: 0;
+	padding: 3px 0px 20px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 18px;
+	color: #242424;
 }
 
 .mp-service-header {
@@ -3525,6 +3560,43 @@ h1.tp-title {
 		padding: 10px 10px;
 	}
 
+	#nav-fixed .logolable {
+
+	}
+
+	#nav-fixed.page-gektar .mp-frstnav li {
+			margin: 10px 0px 10px 5px;
+	}
+
+		
+	#nav-fixed.page-gektar .logolable {
+		float: left;
+		font-size: 11px;
+		margin: 10px 0px 0px 10px;
+	}
+
+	#nav-fixed.active.page-gektar .logolable {
+		margin: 10px 0px 0px 10px;
+		font-size: 11px;
+	}
+
+	.page-gektar .page-info-right {
+		border-top: 2px solid #f2f2f2;
+		padding-top: 10px;
+	}
+
+	#infopages.page-gektar .page-title .calendar li.news-search {
+		width: 100%;
+	}
+
+	#infopages.page-gektar .page-title .calendar {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.page-gektar .mainnav {
+		margin: 120px 0 0;
+	}
     
     .frst-nav {
 
