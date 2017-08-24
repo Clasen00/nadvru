@@ -1209,6 +1209,48 @@ nav .navbar-nav li a {
 
 }
 
+
+#infopages.page-gektar .page-info-right .info-blk-biz {
+	min-height: 420px;
+}
+
+#infopages.page-gektar .page-info-right .info-blk-biz a {
+	color: #262626;
+	font-size: 15px;
+	border-bottom: none;
+	line-height: 18px;
+}
+
+#infopages.page-gektar .page-info-right .info-blk-biz a div {
+	color: #679f60;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	line-height: 22px;
+}
+
+#infopages.page-gektar .page-info-right .info-blk-biz a:hover {
+	color: #73aee0;
+}
+
+#infopages.page-gektar .page-info-right .info-blk-biz a img {
+	width: 100%;
+}
+
+#infopages.page-gektar .page-info-right .info-blk-biz a p {
+	color: #808080;
+	font-size: 13px;
+	padding: 0;
+	margin: 10px 0 0px;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info {
+	color: #808080;
+	font-size: 13px;
+	margin: 0;
+	line-height: 16px;
+}
+
 #infopages.page-gektar .page-info-right .practice-in h2 {
 	font-size: 20px;
 	margin: 0;
@@ -1222,6 +1264,27 @@ nav .navbar-nav li a {
 #infopages.page-gektar .page-info-right .practice-r {
 	font-size: 14px;
 	color: #808080;
+}
+
+#infopages.page-gektar .page-info-right .practice-in .infoblock-in ul {
+	padding: 0;
+	margin: 0;
+}
+
+#infopages.page-gektar .page-info-right .practice-in .infoblock-in .ib-in-right p {
+	padding: 0 0 10px 25px;
+	font-weight: bold;
+	margin: 0;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0MS43IDE0MS43IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjQTNDNDcxIiBkPSJNMi42LDc3LjZDMS41LDc2LjUsMSw3NC45LDEsNzMuOGMwLTEuMSwwLjUtMi43LDEuNi0zLjdsNy41LTcuNWMyLjItMi4yLDUuNC0yLjIsNy41LDBsMC41LDAuNWwyOS41LDMxLjZjMS4xLDEuMSwyLjcsMS4xLDMuNywwbDcxLjktNzQuNmgwLjVjMi4yLTIuMSw1LjQtMi4xLDcuNSwwbDcuNSw3LjVjMi4xLDIuMiwyLjEsNS40LDAsNy41bC04NS44LDg5Yy0xLjEsMS4xLTIuMiwxLjYtMy44LDEuNmMtMS42LDAtMi43LTAuNS0zLjctMS42TDMuNyw3OS4yTDIuNiw3Ny42eiBNMi42LDc3LjYiLz48L3N2Zz4=) no-repeat left 4px / 15px;
+}
+
+#infopages.page-gektar .page-info-right .practice-in .infoblock-in .ib-in-right {
+	margin-bottom: 15px;
+}
+
+#infopages.page-gektar .page-info-right .practice-in .infoblock-in ul li {
+	padding: 0;
+	margin: 0px 0 10px;
 }
 
 #infopages.page-gektar .page-info-right .practice-r .pdficn {
