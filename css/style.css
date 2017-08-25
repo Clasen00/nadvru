@@ -1137,19 +1137,31 @@ nav .navbar-nav li a {
 	padding: 0;
 	position: relative;
 	text-align: right;
+	float: right;
+	border-color: #fff;
 }
 
 #infopages.page-gektar .page-info-right .info-custm li {
-	margin: 0 0 0 50px;
+	margin: 0 0 0 0px;
 	padding: 0;
 	display: inline-block;
+	border-color: #fff;
 }
 
 
 #infopages.page-gektar .page-info-right .info-custm li a {
 	display: inline-block;
 	font-size: 15px;
-	border-color: #f2f2f2;
+	border-color: #fff;
+	padding: 10px 15px 10px 45px;
+}
+
+#infopages.page-gektar .page-info-right .info-custm li a:hover {
+	background: #fff;
+}
+
+#infopages.page-gektar .page-info-right .nav.nav-tabs li.active a {
+	color: #a7cb6f;
 }
 
 #infopages.page-gektar .page-info-right .info-custm li a:hover {
@@ -1163,7 +1175,7 @@ nav .navbar-nav li a {
 	position: absolute;
 	height:20px;
 	margin-left: -30px;
-	margin-top: 2px;
+	margin-top: 0px;
 }
 
 #infopages.page-gektar .page-info-right .info-custm li .mapview:before  {
@@ -1426,6 +1438,49 @@ nav .navbar-nav li a {
 }
 
 #servicelist .nav.nav-tabs li.active:hover a {
+	border: 1px solid #f2f2f2;
+	border-bottom: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.page-info-right ul.nav {
+	border: none;
+	margin-bottom: 30px;
+}
+
+.page-info-right ul.nav li {
+	margin: 0px;
+	padding: 0px;
+}
+
+.page-info-right ul.nav li a {
+	padding: 20px 50px;
+	font-size: 20px;
+	color: #262626;
+	font-weight: bold;
+}
+
+.page-info-right .nav.nav-tabs {
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.page-info-right .nav.nav-tabs li.active a {
+	border-color: #f2f2f2;
+	border-bottom-color: #fff;
+	background: #fff;
+}
+
+.page-info-right .nav.nav-tabs li.active {
+	position: relative;
+	top: 1px;
+}
+
+.page-info-right .nav.nav-tabs li:hover a {
+	border: 1px solid transparent;
+	border-radius: 4px 4px 0 0;
+}
+
+.page-info-right .nav.nav-tabs li.active:hover a {
 	border: 1px solid #f2f2f2;
 	border-bottom: 1px solid transparent;
 	border-radius: 4px 4px 0 0;
