@@ -1400,6 +1400,73 @@ nav .navbar-nav li a {
 	border-bottom: 1px solid #fff;
 }
 
+#infopages  .page-info-right .panel-default .panel-heading {
+	background: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+#infopages  .page-info-right .panel,
+#infopages  .page-info-right .panel .panel-heading,
+#infopages  .page-info-right .panel .panel-heading h4 {
+	background: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+	border: none;
+}
+
+#infopages  .page-info-right .panel .panel-body {
+	background: none;
+	padding: 0;
+	margin: 0 0 20px;
+	box-shadow: none;
+	border: none;
+}
+
+#infopages  .page-info-right .panel a.collapsed {
+	font-size: 20px;
+	font-weight: bold;
+	color: #262626;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	border-bottom-style: dashed;
+}
+
+#infopages  .page-info-right .panel a.collapsed:hover,
+#infopages  .page-info-right .panel a.collapsed:focus {
+	font-size: 20px;
+	font-weight: bold;
+	color: #262626;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+}
+
+#infopages  .page-info-right .panel a {
+	font-size: 20px;
+	font-weight: bold;
+	color: #679f60;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	border-bottom-style: dashed;
+}
+
+#infopages  .page-info-right .panel a:hover,
+#infopages  .page-info-right .panel a:focus {
+	font-size: 20px;
+	font-weight: bold;
+	color: #679f60;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: inline-block;
+	border-bottom: 1px solid #fff;
+}
+
 #servicelist ul.nav {
 	border: none;
 	margin-bottom: 30px;
@@ -4962,6 +5029,19 @@ h1.tp-title {
 #servicelist .accordion-toggle {
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0MS43IDE0MS43IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjMjMyMzIyIiBkPSJNNS42LDEwMi45YzAsMi41LDEsNC45LDIuNyw2LjZsMC4xLDAuMWMxLjgsMS44LDQuMiwyLjgsNi43LDIuOGMyLjUsMCw0LjktMSw2LjctMi44bDQ5LjQtNDkuNGw0OS40LDQ5LjRjMS44LDEuOCw0LjIsMi44LDYuNywyLjhzNC45LTEsNi43LTIuOGMxLjgtMS44LDIuOC00LjIsMi44LTYuN2MwLTIuNS0xLTQuOS0yLjgtNi43TDcxLjEsMzMuNEw4LjQsOTYuMkM2LjYsOTgsNS42LDEwMC4zLDUuNiwxMDIuOXoiLz48L3N2Zz4=) no-repeat left center / 25px;
 	padding-left: 40px;
+}
+
+
+#infopages  .page-info-right .panel a.collapsed {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0MS43IDE0MS43IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjMjMyMzIyIiBkPSJNMTM2LjYsNDIuOWMwLTIuNS0xLTQuOS0yLjctNi42bC0wLjEtMC4xYy0xLjgtMS44LTQuMi0yLjgtNi43LTIuOGMtMi41LDAtNC45LDEtNi43LDIuOEw3MS4xLDg1LjZMMjEuOCwzNi4yYy0xLjgtMS44LTQuMi0yLjgtNi43LTIuOHMtNC45LDEtNi43LDIuOGMtMS44LDEuOC0yLjgsNC4yLTIuOCw2LjdjMCwyLjUsMSw0LjksMi44LDYuN2w2Mi43LDYyLjdsNjIuNy02Mi43QzEzNS43LDQ3LjgsMTM2LjYsNDUuNCwxMzYuNiw0Mi45eiIvPjwvc3ZnPg==) no-repeat left center / 25px;
+	padding-left: 40px;
+	margin: 15px 0px;
+}
+
+#infopages  .page-info-right .panel a {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9ItCh0LvQvtC5XzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTQxLjcgMTQxLjciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0MS43IDE0MS43IiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBmaWxsPSIjMjMyMzIyIiBkPSJNNS42LDEwMi45YzAsMi41LDEsNC45LDIuNyw2LjZsMC4xLDAuMWMxLjgsMS44LDQuMiwyLjgsNi43LDIuOGMyLjUsMCw0LjktMSw2LjctMi44bDQ5LjQtNDkuNGw0OS40LDQ5LjRjMS44LDEuOCw0LjIsMi44LDYuNywyLjhzNC45LTEsNi43LTIuOGMxLjgtMS44LDIuOC00LjIsMi44LTYuN2MwLTIuNS0xLTQuOS0yLjgtNi43TDcxLjEsMzMuNEw4LjQsOTYuMkM2LjYsOTgsNS42LDEwMC4zLDUuNiwxMDIuOXoiLz48L3N2Zz4=) no-repeat left center / 25px;
+	padding-left: 40px;
+	margin: 15px 0px;
 }
 
 
