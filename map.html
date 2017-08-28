@@ -24,13 +24,13 @@
 		$(function (){
 		  
   $('#dv-map').find('li a').hoverIntent(function(){
-    $('.map__region path').css({'fill' : '#52b458'});
+    $('.map__region path').css({'fill' : '#e5e5e5'});
     var region = $(this).data('region');
     
     $('#' + region + ' path').css({'fill' : '#009fdc'});
   },
   function(){
-    $('.map__region path').css({'fill' : '#52b458'});
+    $('.map__region path').css({'fill' : '#e5e5e5'});
   })
 
   $('.map__region').hoverIntent(function(){
