@@ -361,7 +361,12 @@ header.active {
 	margin: 10px 20px 0 0;
 }
 
-.page-gektar .mainnav2 .nav-link.gekcheck a {
+.page-gektar .page-title .gekcheck {
+	margin-right: 15px;
+}
+
+.page-gektar .mainnav2 .nav-link.gekcheck a,
+.page-gektar .page-title .gekcheck a {
 	display: inline-block;
 	padding: 10px 15px !important;
 	background: #a7cb6f;
@@ -369,7 +374,8 @@ header.active {
 	font-size: 15px;
 }
 
-.page-gektar .mainnav2 .nav-link.gekcheck a:hover {
+.page-gektar .mainnav2 .nav-link.gekcheck a:hover,
+.page-gektar .page-title .gekcheck a:hover {
 	background: #73aee0;
 }
 
@@ -1059,6 +1065,7 @@ nav .navbar-nav li a {
 	text-transform: uppercase;
 	margin: 0px 0px 5px;
 	padding: 10px 0px 10px;
+	width: 60%;
 }
 
 #infopages.page-gektar .page-title .calendar {
@@ -1161,9 +1168,68 @@ nav .navbar-nav li a {
 	color: #262626;
 }
 
-
 #infopages.page-gektar .page-info-right .htags {
 	margin-top: 15px;
+}
+
+#infopages.page-gektar .page-info-right h2 {
+	font-size: 18px;
+	color: #262626;
+	font-weight: bold;
+}
+
+#infopages.page-gektar .page-info-left .stat-block__map {
+	padding: 0px 70px;
+}
+
+#infopages.page-gektar .page-info-left .map__item {
+    fill: #52b458;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-opacity: 0.5;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+#infopages.page-gektar .page-info-left .map__region:hover .map__item,
+#infopages.page-gektar .page-info-left .map__region.active .map__item {
+    fill: #009fdc !important;
+}
+
+
+#infopages.page-gektar .page-info-right .infopages-info a.focus-region {
+	border: none;
+	font-size: 20px;
+	color: #262626;
+	font-weight: normal;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info a.focus-region:hover {
+	color: #73aee0 !important;
+	font-weight: bold !important;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info ul {
+	margin: 0;
+	padding: 0;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info ul li {
+	margin: 25px 0 15px;
+	padding: 0;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info ul li a img {
+	width: 30px;
+	margin-right: 20px;
+	box-shadow: 0 0 1px #808080;
+}
+
+#infopages.page-gektar .page-info-right .infopages-info .alllinks {
+    color: #679f60;
+    display: inline-block;
+    font-size: 16px;
+    margin: 28px 0 0;
 }
 
 #infopages.page-gektar .page-info-right .info-custm {
@@ -1469,6 +1535,41 @@ nav .navbar-nav li a {
 	margin: 0 0 20px;
 	box-shadow: none;
 	border: none;
+}
+
+#infopages  .page-info-right .panel .panel-body ul {
+	padding: 0;
+	margin: 15px 0 10px 20px;
+}
+
+#infopages  .page-info-right .panel .panel-body ul li {
+	padding: 0;
+	margin: 5px 0 10px;
+	list-style: outside none disc;
+}
+
+#infopages  .page-info-right .panel .panel-body a {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	color: #679f60;
+	display: inline-block;
+	font-size: 16px;
+	line-height: auto;
+	font-weight: normal;
+}
+
+#infopages  .page-info-right .panel .panel-body a:hover {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	color: #73aee0;
+	display: inline-block;
+	font-size: 16px;
+	line-height: auto;
+	font-weight: normal;
 }
 
 #infopages  .page-info-right .panel a.collapsed {
@@ -2792,7 +2893,7 @@ h1.tp-title {
 	border-color: #f2f2f2;
 	border-radius: 0;
 	box-shadow: none;
-	height: 36px;
+	height: 40px;
 }
 
 .news-search #seacrh_container2 button {

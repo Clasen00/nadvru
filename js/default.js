@@ -4,6 +4,7 @@ $(window).scroll(function(e) {
 });
 
 $(function (){
+
     $('.autoplay').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
