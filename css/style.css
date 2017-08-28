@@ -1130,6 +1130,42 @@ nav .navbar-nav li a {
 	padding: 10px 15px;
 }
 
+#infopages.page-gektar .page-info-left li.link-region {
+	margin: 0 !important;
+	padding: 15px 0px;
+	width: 100%;
+}
+
+#infopages.page-gektar .htags h2 {
+	padding: 10px 0px;
+	margin: 0;
+	font-size: 22px;
+}
+
+#infopages.page-gektar .htags span {
+	background: #f2f2f2;
+	margin-right: 5px;
+	border-radius: 5px;
+	padding: 3px 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#infopages.page-gektar .htags span a {
+	font-size: 13px;
+	color: #808080;
+	border-bottom: none;
+}
+
+#infopages.page-gektar .htags span a:hover {
+	color: #262626;
+}
+
+
+#infopages.page-gektar .page-info-right .htags {
+	margin-top: 15px;
+}
+
 #infopages.page-gektar .page-info-right .info-custm {
 	clear: both;
 	margin: 0 0 30px;
@@ -1139,6 +1175,16 @@ nav .navbar-nav li a {
 	text-align: right;
 	float: right;
 	border-color: #fff;
+}
+
+#infopages.page-gektar .page-info-right h2 {
+	margin: 20px 0 10px;
+	padding: 10px 0 5px;
+}
+
+#infopages.page-gektar .page-info-right h2:first-child {
+	margin: 10px 0;
+	padding: 5px 0 5px;
 }
 
 #infopages.page-gektar .page-info-right .info-custm li {
@@ -2105,6 +2151,7 @@ a.mp-newsblk:hover .img-black-bg img {
 
 #mp-newsblocks .nvb-list {
 	margin-bottom: 40px;
+	min-height: 340px;
 }
 
 #mp-newsblocks .nvb-list a img {
@@ -2121,7 +2168,6 @@ a.mp-newsblk:hover .img-black-bg img {
 
 #mp-newsblocks .nvb-list a span {
 	display: inline-block;
-	min-height: 90px;
 }
 
 #mp-newsblocks .nvb-list:hover a {
