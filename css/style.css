@@ -216,14 +216,14 @@ button.btn:hover {
 }
 
 .page-content ul li:before {
-	background-color: #4e9fd3;  /*Р¦РІРµС‚ РїРѕР»РѕСЃРєРё*/
+	background-color: #4e9fd3;  /*Цвет полоски*/
 	content: "";
-	height: 1px;  /*Р’С‹СЃРѕС‚Р° РїРѕР»РѕСЃРєРё*/
+	height: 1px;  /*Высота полоски*/
 	left: 0;
 	overflow: hidden;
 	position: absolute;
 	top: 6px;
-	width: 10px;  /*РЁРёСЂРёРЅР° РїРѕР»РѕСЃРєРё*/
+	width: 10px;  /*Ширина полоски*/
 }
 
 
@@ -3990,6 +3990,25 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	position: relative;
 }
 
+#main-g-cc .tab-content {
+	width: 100%;
+}
+
+#main-g-cc .slick-slider .slick-list {
+	width: 100%;
+}
+
+#main-g-cc .slick-slider .slick-list .slick-track {
+	width: 100%;
+}
+
+#main-g-cc .tab-content.panel-fb,
+#main-g-cc .tab-content.panel-vk,
+#main-g-cc .tab-content.panel-ins,
+#main-g-cc .tab-content.panel-tw {
+	width: 100%;
+}
+
 #main-g-cc .slick-slider .cc-icons-bg {
 	display: inline-block;
 	height: 40px;
@@ -4037,45 +4056,69 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	left: -40px;
 }
 
-#main-g-cc .autoplay-two .slick-slide span {
+#main-g-cc .autoplay-two .slick-slide span,
+#main-g-cc .autoplay-two-02 .slick-slide span,
+#main-g-cc .autoplay-two-03 .slick-slide span,
+#main-g-cc .autoplay-two-04 .slick-slide span {
 	padding: 5px 15px 0;
 	display: inline-block;
 }
 
 
-#main-g-cc .autoplay-two div p {
+#main-g-cc .autoplay-two div p,
+#main-g-cc .autoplay-two-02 div p,
+#main-g-cc .autoplay-two-03 div p,
+#main-g-cc .autoplay-two-4 div p {
 	margin-bottom: 5px;
 }
 
-.autoplay-two div div {
+.autoplay-two div div,
+.autoplay-two-02 div div,
+.autoplay-two-03 div div,
+.autoplay-two-04 div div {
 	width: 33.33333%;
 	margin: 0;
 }
 
-.autoplay-two .slick-slide img {
+.autoplay-two .slick-slide img,
+.autoplay-two-02.slick-slide img,
+.autoplay-two-03 .slick-slide img,
+.autoplay-two-03 .slick-slide img {
 	width: 100%;
 	margin: 0;
 }
 
-.autoplay-two .slick-slide p {
+.autoplay-two .slick-slide p,
+.autoplay-two-02 .slick-slide p,
+.autoplay-two-03 .slick-slide p,
+.autoplay-two-04 .slick-slide p {
 	display: inline-block;
 	margin-bottom: 15px;
 	background: #000;
 	width: 100%;
 }
 
-.autoplay-two div img {
+.autoplay-two div img,
+.autoplay-two-02 div img,
+.autoplay-two-03 div img,
+.autoplay-two-04 div img {
 	width: 100%;
 	margin-bottom: 15px;
 	background: #000;
 }
 
-.autoplay-two .slick-slide a:hover img {
+.autoplay-two .slick-slide a:hover img,
+.autoplay-two-02 .slick-slide a:hover img,
+.autoplay-two-03 .slick-slide a:hover img,
+.autoplay-two-04 .slick-slide a:hover img {
 	opacity: 0.8;
 	background: #000;
 }
 
-.autoplay-two div a {
+.autoplay-two div a,
+.autoplay-two-02 div a,
+.autoplay-two-03 div a,
+.autoplay-two-04 div a {
 	color: #262626;
 	font-size: 16px;
 	line-height: 20px;
@@ -4086,19 +4129,36 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	position: relative;
 }
 
-.autoplay-two div a span {
+.autoplay-two div a span,
+.autoplay-two-02 div a span,
+.autoplay-two-03 div a span,
+.autoplay-two-04 div a span {
 	border: none;
 }
 
-.autoplay-two div a:hover span {
+.autoplay-two div a:hover span,
+.autoplay-two-02 div a:hover span,
+.autoplay-two-03 div a:hover span,
+.autoplay-two-04 div a:hover span {
 	color: #73aee0;
 }
 
 .autoplay-two button.slick-prev, .autoplay-two button.slick-next,
 .autoplay-two button.slick-prev:hover, .autoplay-two button.slick-next:hover,
-.autoplay-two button.slick-prev:focus, .autoplay-two button.slick-next:focus {
+.autoplay-two button.slick-prev:focus, .autoplay-two button.slick-next:focus,
+.autoplay-two-02 button.slick-prev, .autoplay-two-02 button.slick-next,
+.autoplay-two-02 button.slick-prev:hover, .autoplay-two-02 button.slick-next:hover,
+.autoplay-two-02 button.slick-prev:focus, .autoplay-two-02 button.slick-next:focus,
+	.autoplay-two-03 button.slick-prev, .autoplay-two-03 button.slick-next,
+.autoplay-two-03 button.slick-prev:hover, .autoplay-two-03 button.slick-next:hover,
+.autoplay-two-03 button.slick-prev:focus, .autoplay-two-03 button.slick-next:focus,
+	.autoplay-two-04 button.slick-prev, .autoplay-two-04 button.slick-next,
+.autoplay-two-04 button.slick-prev:hover, .autoplay-two-04 button.slick-next:hover,
+.autoplay-two-04 button.slick-prev:focus, .autoplay-two-04 button.slick-next:focus {
 	top: 33%;
 }
+
+
 
 #mp-g-today {
 	min-height: 400px;
