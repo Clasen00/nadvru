@@ -3997,6 +3997,7 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	width: 40px;
 	z-index: 100;
 	top: 0px;
+	left: -15px;
 }
 
 #main-g-cc .slick-slider .slick-list div a {
@@ -4082,6 +4083,7 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	border: none;
 	padding: 0px 15px;
 	display: inline-block;
+	position: relative;
 }
 
 .autoplay-two div a span {
@@ -4898,6 +4900,10 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 
 	#nav-fixed .logolable {
 
+	}
+
+	#mp-g-pod .gt-icon p {
+		min-height: 60px;
 	}
 
 	#nav-fixed.page-gektar .mp-frstnav li {
