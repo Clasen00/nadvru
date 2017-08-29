@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" />
+	<title>ФИС &laquo;На Дальний Восток&raquo;</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/default.css" />
+	<link rel="stylesheet" href="css/jquery-ui.css" />
+	<link rel="stylesheet" href="css/slick.css" />
+	<link rel="stylesheet" href="css/slick-theme.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Example assets -->
+	<script type="text/javascript" src="js/default.js"></script>
+	<style>
+		#mp-g-today{background: #4595c7 url('img/g-bg.jpg') no-repeat fixed center bottom / 100%;}
+	</style>
+	<style>
+		#mp-g-pod{background: #4595c7 url('img/g-bg-pod.jpg') no-repeat fixed center bottom / 100%;}
+	</style>
+	<script>
+		$(window).scroll(function () {
+		var movement = -parseInt($(this).scrollTop() / 10);
+		$('#mp-g-today').css({
+		backgroundPosition: 'center ' + movement + 'px'
+		});
+		});
+	</script>
+	<script>
+		$(window).scroll(function () {
+		var movement = -parseInt($(this).scrollTop() / 10);
+		$('#mp-g-pod').css({
+		backgroundPosition: 'center ' + movement + 'px'
+		});
+		});
+	</script>
+</head>
+<body>
+
+	
+	<header id="nav-fixed" class="page-gektar">
+		
+		<div class="container mob-nav">
+			<div class="col-mn-l">
+				<a href="index.html" class="mlogo">
+					<img src="img/logo.svg">
+				</a>
+			</div>
+		</div>
+
+		<div class="container mp-frstnav">
+			<div class="row">
+
+				<div class="col-md-1 text-left">
+					<ul>
+						<li class="ham-icon">
+							<button class="hamb"></button>
+							<button class="hamb-close"></button>
+					  </li>
+					 </ul>
+				</div>
+
+				<div class="col-md-3 text-right">
+					<a class="logolable" href="#">Дальневосточный гектар</a>
+				</div>
+
+				<div class="col-md-4 h-logo">
+					<a href="index.html">
+						<img src="img/logo.svg" width="310px" heihgt="64">
+					</a>
+				</div>
+
+				<div class="col-md-4 text-right hicon">
+					<ul class=" hicon">
+						<li class="nav-icon">
+							<button class="searchicon"></button>
+							<button class="searchicon-close"></button>
+					  </li>
+						<li class="nav-icon">
+						 		<a href="#" class="accicon"></a>
+						 </li>
+					  <li class="nav-icon">
+							<a href="#" class="pointer"></a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="s-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 h-search">	
+						<div class="srchform">
+						  	<div id="seacrh_container"> 
+				                <div class="input-group stylish-input-group">
+				                    <input type="text" class="form-control" placeholder="Что ищем?">
+				                    <span class="input-group-addon">
+				                        <button type="submit">
+				                            Найти
+				                        </button>  
+				                    </span>
+				                </div>
+				        	</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="h-bg">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 ham-search">	
+						<div class="hambform">
+						  	<ul class="frstcat">
+								<li>
+									<a href="#"><span class="mf-icon city">Владивосток</span></a>
+								</li>
+								<li>
+									<a href="newslist.html"><span class="mf-icon dots">Новости</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon akcii">Дальний Восток</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoshop">Проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoitem">Сервисы</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon wheel">Контакты</span></a>
+								</li>
+								<li>
+									<a href="newslist.html"><span class="mf-icon dots">Новости</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon akcii">Дальний Восток</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoshop">Проекты</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon autoitem">Сервисы</span></a>
+								</li>
+								<li>
+									<a href="#"><span class="mf-icon wheel">Контакты</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<div class="container mp-secnav page-gektar">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<div class="menu-border">
+					<ul class="mainnav">
+						<li class="nav-link">
+					  	<a href="newslist.html">Документы</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">Ответы</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">Лучшие практики</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">Меры поддержки</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">Бизнес-планы</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">Новости</a>
+					  </li>
+					  <li class="nav-link">
+					  	<a href="#">О программе</a>
+					  </li>
+					</ul>
+					<ul class="mainnav2">
+						<li class="nav-link gekcheck">
+					  	<a href="#">Выбрать участок</a>
+					  </li>
+					  <li class="nav-link gosulsg">
+					  	<a href="#">Вход / Регистрирация</a>
+					  	<p>Через портал Госуслуги</p>
+					  </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section id="main-g-page" class="page-gektar"> 	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 main-g-slogan">
+					<h2>Каждый гражданин рф имеет право <p>получить гектар земли на Дальнем Востоке</p></h2>
+				</div>
+				<div class="col-md-8 main-g-tnews">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="img-g-blk">
+								<div class="img-g-tn">
+									<a href="http://primdesign.ru/nadv/news.html">
+										<img src="images/big_3.jpg">
+										<div class="mp-tn-shadow">
+											<span class="mp-tn-text-b">Лесопромышленная отрасль Якутии ждёт господдержки</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5 main-g-ttnews">
+							<a href="#">
+								Заявки на «дальневосточный гектар» в Якутии рассматриваются 
+							</a>
+						</div>
+						<div class="col-md-5 main-g-ttnews2">
+							<a href="#">
+								Заявки на «дальневосточный гектар» в Якутии рассматриваются 
+							</a>
+						</div>
+						<div class="col-md-2 gekcheck">
+							<a href="#" class="buttonblue">
+								Все новости
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 main-g-buttons">
+					<a href="#" class="chosegkt buttonblue"><p>Выбрать</p> участок</a>
+					<a href="#" class="chosekrdt buttonblue"><p>Получить</p><br/>льготный кредит</a>
+					<a href="#" class="createpos"><p>Создание</p> поселений</a>
+					<a href="#" class="bestpract"><p>Лучшие</p> практики</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-g-cc" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mp-cc-body">
+						<a href="#" class="mpsh-header">Обзор соцсетей</a>
+						<ul>
+							<li>
+								<a href="#" class="">facebook</a>
+							</li>
+							<li>
+								<a href="#" class="mpsh-all">instagram</a>
+							</li>
+							<li>
+								<a href="#" class="mpsh-all">twitter</a>
+							</li>
+							<li class="active">
+								<a href="#" class="mpsh-all">вконтакте</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="autoplay-two">
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-05.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-ins"></i></div>
+							<a href="#" class="cc-acc">@Primamedia.ru</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-02.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-tw"></i></div>
+							<a href="#" class="cc-acc">minvostokrazvitia</a>
+							<span>Александр Галушка проинспектировал ход создания ТОР</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-03.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-fb"></i></div>
+							<a href="#" class="cc-acc">@minvostokrazvitia</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-05.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-vk"></i></div>
+							<a href="#" class="cc-acc">minvostokrazvitia</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-06.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-fb"></i></div>
+							<a href="#" class="cc-acc">@Primamedia.ru</a>
+							<span>Юрий Трутнев: резидентами ТОР в Якутии стали 30 компаний</span>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-03.jpg"></p>
+							<div class="cc-icons-bg"><i class="ico i-tw"></i></div>
+							<a href="#" class="cc-acc">@minvostokrazvitia</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-g-today" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<h2 class="zag-bg">дальневосточный гектар<br/> сегодня</h2>
+				</div>
+				<div class="col-md-5">
+					<div class="mp-g-t-blk pdficn">
+						Как получить гектар на Дальнем Востоке.
+						<p>Пошаговая инструкция</p>
+						<a class="buttonblue" href="">Скачать</a>
+					</div>
+				</div>
+				<div class="whiteblk">
+					<div class="col-md-4">
+						<div class="gt-icon ic-gt-01">
+							96,204
+							<p>заявок подано</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gt-icon ic-gt-02">
+							23,650
+							<p>участков отдано в пользование</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="gt-icon ic-gt-03">
+							72,554
+							<p>заявки на расмотрении</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-g-programm" class="page-gektar">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12">
+
+				    <ul class="nav nav-tabs">
+				      <li class="active"><a data-toggle="tab" href="#panel1">Дальневосточный гектар<br/>(о программе)</a></li>
+				      <li><a data-toggle="tab" href="#panel2">Работа в личном кабинете<br/>(инструкция)</a></li>
+				    </ul>
+				     
+				    <div class="tab-content">
+				      	<div id="panel1" class="tab-pane fade in active">
+							<div class="row">
+								<div class="col-md-8">
+									<iframe width="100%" height="500" src="https://www.youtube.com/embed/ofyP5rggqB0" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-4">
+									<div class="pdf-blk">
+										<a href="#">
+											<h2 href="#">Загрузить PDF</h2>
+											<img src="images/demo_s_img_06.jpg">
+											<p>
+												Журнал «Дальневосточный гектар»
+											</p>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="panel2" class="tab-pane fade">
+							<div class="row">
+								<div class="col-md-8">
+									<iframe width="100%" height="500" src="https://www.youtube.com/embed/jecqhdJVX30" frameborder="0" allowfullscreen></iframe>
+								</div>
+								<div class="col-md-4">
+									<div class="pdf-blk">
+										<a href="#">
+											<h2 href="#">Загрузить PDF</h2>
+											<img src="images/demo_s_img_06.jpg">
+											<p>
+												Журнал «Дальневосточный гектар»
+											</p>
+										</a>
+									</div>
+								</div>
+							</div
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+		<section id="main-g-cc" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="autoplay-three">
+					<div>
+						<a href="#">
+							<p><img src="img/slide-01.jpg"></p>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="img/slide-02.jpg"></p>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="img/slide-03.jpg"></p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-g-pod" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="zag-bg">меры господдержки граждан в освоении новых земель</h2>
+				</div>
+				<div class="whiteblk">
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic01.svg">
+							<p>Получить льготный кредит</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic02.svg">
+							<p>Социальные льготы</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic03.svg">
+							<p>Жилье и ЖКУ</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic04.svg">
+							<p>Переезд</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic05.svg">
+							<p>Свой бизнес</p>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="gt-icon">
+							<a href="#">
+							<img src="img/ic06.svg">
+							<p>Работа</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="main-g-cb" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mp-cc-body">
+						<a class="mpsh-header" href="#">Бизнес-планы</a>
+						<a class="mpsh-header-all buttonblue" href="#">Смотреть все</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="autoplay-four">
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-05.jpg"></p>
+							<a href="#" class="cc-acc">Животноводство</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-02.jpg"></p>
+							<a href="#" class="cc-acc">Растеневодство</a>
+							<span>Александр Галушка проинспектировал ход создания ТОР</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-03.jpg"></p>
+							<a href="#" class="cc-acc">Животноводство</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-05.jpg"></p>
+							<a href="#" class="cc-acc">Растеневодство</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-06.jpg"></p>
+							<a href="#" class="cc-acc">Животноводство</a>
+							<span>Юрий Трутнев: резидентами ТОР в Якутии стали 30 компаний</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+					<div>
+						<a href="#">
+							<p><img src="images/demo-img-03.jpg"></p>
+							<a href="#" class="cc-acc">Растеневодство</a>
+							<span>Почта Банк будет кредитовать получивших "дальневосточный гектар" граждан</span>
+							<div class="practice-r">
+								Срок окупаемости
+								<p>25 месяцев</p>
+								Первоначальный объем инвестиций
+								<p>5 000 тыс. рублей</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-b-blk">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+				<a href="#"><img src="images/ms-b2.jpg" width="100%"></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-xlsx" class="page-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-12">
+					<div class="mp-g-t-blk xlsxicn">
+						<a href="#">Перечень уполномоченных органов власти.xls</a>
+						<p>159 Кб</p>
+					</div>
+					<a class="buttonblue" href="#">Скачать</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mp-g-logos"> 	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-12">
+					<div class="min-vr-blk">
+						<a href="#">
+							<img src="img/minvr.png">
+							<p>Министерство Российской Федерации по развитию Дальнего Востока</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12">
+					<ul class="gektar-flags">
+						<li><a href="#" class="focus-region"><img src="img/flags/PRI.svg" alt="Приморский край">Приморский край</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/YEV.svg" alt="Еврейская АО">Еврейская АО</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/KHA.svg" alt="Хабаровский край">Хабаровский край</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/KAM.svg" alt="Камчатский край">Камчатский край</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/SAK.svg" alt="Сахалинская область">Сахалинская область</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/MAG.svg" alt="Магаданская область">Магаданская область</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/SA.svg" alt="Республика Саха(Якутия)">Республика Саха(Якутия)</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/AMU.svg" alt="Амурская область">Амурская область</a></li>
+						<li><a href="#" class="focus-region"><img src="img/flags/CHU.svg" alt="Чукотский АО">Чукотский АО</a></li>
+						<li><a href="#" class="focus-region"><img src="img/rosree.png" alt="РОСРЕЕСТР">РОСРЕЕСТР</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer-gektar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 callcenter">
+					Call-центр и техподдержка
+					<p>8 800 200 32 51</p>
+				</div>
+				<div class="col-md-4 callmessage">
+					<b>Viber</b> +7 977 8234 727 <br/>
+					<b>Telegram</b> https://telegram.me/hcfe_bot
+				</div>	
+				<div class="col-md-5 copyright-g">
+					<ul class="copyright-cc">
+						<li>
+							<a href="#" class="cc-g-tw"></a>
+						</li>
+						<li>
+							<a href="#" class="cc-g-yt"></a>
+						</li>
+						<li>
+							<a href="#" class="cc-g-fb"></a>
+						</li>
+					</ul>
+					<p>© 2017 Министерство Российской Федерации по развитию Дальнего Востока.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
+
+
