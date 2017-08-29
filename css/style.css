@@ -4746,6 +4746,10 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	background-color: #73aee0;
 }
 
+.h-bg .ham-search .seccat {
+	display: none;
+}
+
 
 
 
@@ -4927,46 +4931,210 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	}
 
 	.page-gektar .mainnav {
-		margin: 120px 0 0;
+		display: none;
 	}
-    
-    .frst-nav {
+  
+  .page-gektar .mainnav .seccat {
+	display: block;
+	}
+  
+  .frst-nav {
 
-    }
+  }
 
-    .h-logo {
-        display: none;
-    }
+  .h-logo {
+      display: none;
+  }
 
-    .mlogo img {
-        width: 100%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
+  .mlogo img {
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
 
-    a.mlogo {
-			width: 100%;
-			text-align: center;
-			border: none;
-    }
+  a.mlogo {
+		width: 100%;
+		text-align: center;
+		border: none;
+  }
 
-    #nav-fixed .mp-frstnav li {
-			margin: 10px 0px 10px 10px;
-		}
+  #nav-fixed .mp-frstnav li {
+		margin: 10px 0px 10px 10px;
+	}
 
-    .mob-nav {
-    	display: inline-block;
-    	width: 100%;
-    }
+  .mob-nav {
+  	display: inline-block;
+  	width: 100%;
+  }
 
-    .navbar {
-    	display: none;
-    }
+  .navbar {
+  	display: none;
+  }
+
+  .h-bg .ham-search .seccat {
+  	display: inline-block;
+  	padding: 15px 0 0;
+  	margin: 0 auto;
+  	width: 100%;
+  }
+
+  .h-bg .ham-search .seccat li {
+  	display: block;
+  	width: 100%;
+  	text-align: center;
+		padding: 0;
+		margin: 10px auto;
+  }
 
 	#seacrh_container button {
 		font-size: 15px;
 		height: 35px;
 		padding: 0 15px;
+	}
+
+	#main-g-page {
+		margin-top: 120px;
+	}
+
+	#main-g-page .main-g-slogan h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	#main-g-page .main-g-tnews .img-g-blk {
+		margin-bottom: 15px;
+	}
+
+	#main-g-page .main-g-slogan h2 p {
+		font-size: 25px;
+	}
+
+	.page-gektar .main-g-buttons .createpos, .page-gektar .main-g-buttons .bestpract {
+		font-size: 19px;
+	}
+
+	.page-gektar .main-g-tnews .gekcheck {
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	#main-g-cc.page-gektar .mp-cc-body ul {
+			margin: 0;
+	}
+
+	#mp-g-programm .nav-tabs li.active a {
+		border-color: #f2f2f2;
+		border-style: solid;
+		background: #a7cb6f;
+		color: #fff;
+		font-size: 18px;
+	}
+
+	#mp-g-programm .tab-content .pdf-blk {
+		margin-top: 20px;
+	}
+
+	#main-g-cb .mp-cc-body a.mpsh-header {
+		font-size: 20px;
+	}
+
+	#mp-g-logos .gektar-flags {
+		margin: 30px 0 0 0;
+		padding: 0;
+	}
+
+	#footer-gektar .callcenter {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	#footer-gektar .copyright-g .copyright-cc {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	#mp-g-logos .gektar-flags li {
+		width: 100%;
+		margin: 10px 0;
+		padding: 0;
+	}
+
+	#mp-g-logos .min-vr-blk p {
+		width: 100%;
+		font-size: 20px;
+		line-height: 25px;
+	}
+
+	#main-g-cb a.mpsh-header-all {
+		padding: 5px 10px;
+	}
+
+	#mp-xlsx .buttonblue {
+		display: none;
+	}
+
+	#mp-g-programm .nav-tabs li {
+		margin: 0 0 15px 0;
+		width: 100%;
+	}
+
+	#mp-g-pod {
+			padding: 10px 0;
+			margin-bottom: 30px;
+	}
+
+	#mp-g-pod h2.zag-bg {
+			font-size: 20px;
+			line-height: 25px;
+	}
+
+	#mp-g-pod .whiteblk > div {
+		width: 50%;
+		margin: 0;
+		text-align: center;
+		float: left;
+	}
+
+	#mp-g-programm .nav-tabs li a {
+		border-color: #a7cb6f;
+		border-style: dashed;
+		background: #fff;
+		color: #262626;
+		font-size: 18px;
+	}
+
+	#mp-g-today .gt-icon {
+		font-size: 45px;
+		padding: 30px 0 15px 95px;
+	}
+
+	#mp-g-today {
+		padding: 30px 10px;
+		margin-bottom: 20px;
+	}
+
+	#mp-g-today h2.zag-bg {
+		font-size: 20px;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+
+	#main-g-cc.page-gektar .mp-cc-body ul li {
+			margin: 0;
+			padding: 3px 5px;
+	}
+
+	#main-g-cc.page-gektar .mp-cc-body ul li a {
+			font-size: 15px;
+	}
+
+	.page-gektar .main-g-ttnews {
+		margin-bottom: 20px;
+	}
+
+	#main-g-page .main-g-tnews .img-g-tn .mp-tn-text-b {
+		font-size: 20px;
+		line-height: 30px;
 	}
 
 	#seacrh_container .stylish-input-group .form-control {
@@ -4986,7 +5154,7 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 
 	.hambform .frstcat li {
 	    border-bottom: 1px solid #e5e5e5;
-	    border-right: 20px solid #f2f2f2;
+	    border-right: 0px solid #f2f2f2;
 	    text-align: center;
 	    width: 100%;
 	}
@@ -5706,6 +5874,12 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	.news-search {
 		width: 100%
 	}
+
+		#mp-g-pod .gt-icon {
+		width: 33.333%;
+		float: left;
+	}
+
 
     .frst-nav {
         display: none;
