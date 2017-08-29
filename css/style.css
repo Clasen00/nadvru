@@ -4758,6 +4758,9 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 
 @media screen and (min-width:800px) and (max-width: 1200px) {
 
+			header#nav-fixed.active {
+			position: absolute;
+			}
 
 		.mp-topnews-block li {
 			margin: 0 0 5px 0;
@@ -5884,7 +5887,7 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 		#mp-g-pod .gt-icon {
 		width: 33.333%;
 		float: left;
-	}
+		}
 
 
     .frst-nav {
