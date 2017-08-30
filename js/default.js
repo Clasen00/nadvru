@@ -132,7 +132,6 @@ $(function (){
       autoplay: true,
       autoplaySpeed: 2000,
       dots: true,
-      adaptiveHeight: true,
       responsive: [
     {
       breakpoint: 1024,

@@ -35,20 +35,37 @@
 	</style>
 	<script>
 		$(window).scroll(function () {
-		var movement = -parseInt($(this).scrollTop() / 10);
-		$('#mp-g-today').css({
-		backgroundPosition: 'center ' + movement + 'px'
-		});
+				var movement = -parseInt($(this).scrollTop() / 10);
+				$('#mp-g-today').css({
+				backgroundPosition: 'center ' + movement + 'px'
+			});
+				$('#mp-g-pod').css({
+				backgroundPosition: 'center ' + movement + 'px'
+			});
+
+				if($(this).scrollTop() > 1000) {
+            var $this = $('#counterPElement'),
+            countTo = $this.attr('data-count'),
+            span = $this.find('span');
+
+            $({ countNum: span.text()})
+              .animate({
+                    countNum: countTo
+                }, {
+                    duration: 2500,
+                    easing:'linear',
+                    step: function() {
+                        span.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                        span.text(this.countNum);
+                    }
+                });
+				}
+
 		});
 	</script>
-	<script>
-		$(window).scroll(function () {
-		var movement = -parseInt($(this).scrollTop() / 10);
-		$('#mp-g-pod').css({
-		backgroundPosition: 'center ' + movement + 'px'
-		});
-		});
-	</script>
+
 </head>
 <body>
 
@@ -538,20 +555,17 @@
 				<div class="whiteblk">
 					<div class="col-md-4">
 						<div class="gt-icon ic-gt-01">
-							96,204
-							<p>заявок подано</p>
+							<div id="counterPElement" data-count="96204"><span>0</span> человек зарегистрировались</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="gt-icon ic-gt-02">
-							23,650
-							<p>участков отдано в пользование</p>
+							<div id="counterPElement" data-count="23650"><span>0</span> участков отдано в пользование</div>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="gt-icon ic-gt-03">
-							72,554
-							<p>заявки на расмотрении</p>
+							<div id="counterPElement" data-count="72554"><span>0</span> заявки на расмотрении</div>
 						</div>
 					</div>
 				</div>
