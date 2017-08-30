@@ -948,6 +948,13 @@ nav .navbar-nav li a {
 	padding: 0 0 5px 0;
 }
 
+.mp-secnav.test>div>div {
+	border: 3px solid #a7cb6f;
+	color: #262626;
+	margin: 0 auto;
+	padding: 20px;
+}
+
 .mp-nl-icons {
 	display: inline-block;
 	color: #808080;
@@ -5237,7 +5244,15 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	}
 
 	#mainpage-topnews {
-    	margin: 130px 0 30px;
+    	margin: 15px 0 30px;
+	}
+
+	.mp-secnav.test {
+		border: 3px solid #a7cb6f;
+		color: #262626;
+		margin: 150px 15px 0;
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
 
 	.mainnav {
