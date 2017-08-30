@@ -4080,6 +4080,14 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	margin: 0;
 }
 
+.autoplay-two .slick-list .slick-slide,
+.autoplay-two-02 .slick-list .slick-slide,
+.autoplay-two-03 .slick-list .slick-slide,
+.autoplay-two-04 .slick-list .slick-slide {
+	width: 33.33333%;
+	margin: 0;
+}
+
 .autoplay-two .slick-slide img,
 .autoplay-two-02.slick-slide img,
 .autoplay-two-03 .slick-slide img,
@@ -5229,13 +5237,14 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	}
 
 	#mainpage-topnews {
-    	margin: 0px 0 30px;
+    	margin: 130px 0 30px;
 	}
 
 	.mainnav {
 	    margin: 140px 0 0 0;
 	    padding: 0;
 	    position: relative;
+	    display: none;
 	}
 
 	.mainnav2 {
