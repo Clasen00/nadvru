@@ -321,6 +321,9 @@ $(function (){
 
 $(document).ready(function(){
 
+$('#main-g-cc  a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+  $(e.target.getAttribute('href')).slick('slickGoTo', 0);
+})
 
 $( ".searchicon-close" ).hide();
 $( ".srchform" ).hide();

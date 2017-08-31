@@ -420,6 +420,7 @@ header.active {
 	display: inline-block !important;
 	margin: 30px 0px 30px 15px;
 	float: right;
+	position: relative;
 }
 
 .ham-icon {
@@ -1118,7 +1119,7 @@ nav .navbar-nav li a {
 	width: 45%;
 }
 
-#infopages.page-gektar .calendar .news-search {
+#infopages.page-gektar .newslist .calendar .news-search {
 	width: 29% !important;
 }
 
@@ -6586,4 +6587,115 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
   100% {
     transform: translateY(-30px);    
   }
+}
+
+.mp-frstnav .hicon .nav-icon .dropd
+{
+  padding : 15px;
+  top     : 45px;
+  right   : -52px;
+}
+
+.mp-frstnav .hicon .nav-icon .dd
+{
+  display    : none;
+  background : #fff;
+  border     : 2px solid #f2f2f2;
+  position   : absolute;
+}
+
+.mp-frstnav .hicon .nav-icon .dd::before,
+.mp-frstnav .hicon .nav-icon .dd::after
+{
+  content       : '';
+  position      : absolute;
+  right         : 60px;
+  top           : -16px;
+  border        : 7px solid transparent;
+  border-bottom : 7px solid #f2f2f2;
+}
+
+.mp-frstnav .hicon .nav-icon .dd.vyp::before,
+.mp-frstnav .hicon .nav-icon .dd.vyp::after
+{
+  left  : 40px;
+  right : auto;
+}
+
+.mp-frstnav .hicon .nav-icon .dd::after
+{
+  border-bottom : 7px solid #fff;
+  top           : -14px;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > a
+{
+  float      : right;
+  background : #73aee0;
+  color      : #fff;
+  padding    : 9px;
+  border     : 0;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > a:hover
+{
+  background : #a7cb6f;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div
+{
+  white-space  : nowrap;
+  line-height  : 41px;
+  margin-right : 150px;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action
+{
+  display  : inline;
+  position : relative;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .now
+{
+  border-bottom : 1px dashed #73aee0;
+  color         : #73aee0;
+  cursor        : pointer;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .now:hover
+{
+  border-bottom : 0;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .vyp
+{
+  padding : 10px;
+  top     : 33px;
+  left    : 0;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .vyp > div
+{
+  line-height : 24px;
+  text-align  : left;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .vyp > div:hover
+{
+  color  : #73aee0;
+  cursor : pointer;
+}
+
+.mp-frstnav .hicon .nav-icon .dropd > div > .action .vyp > div.current
+{
+  display : none;
+}
+
+.newsbody p.inject {
+    border-left: 3px solid #73aee0;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    margin: 30px 0;
+    padding: 0 0 0 25px;
 }
