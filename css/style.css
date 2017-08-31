@@ -1114,8 +1114,12 @@ nav .navbar-nav li a {
 	padding: 0 !important;
 }
 
-#infopages.page-gektar .news-search {
+#infopages.page-gektar .page-title .news-search {
 	width: 45%;
+}
+
+#infopages.page-gektar .calendar .news-search {
+	width: 29%;
 }
 
 #infopages.page-gektar .news-search .input-group {
@@ -1141,6 +1145,15 @@ nav .navbar-nav li a {
 #infopages.page-gektar .page-info-left li {
 	margin: 2px 0 5px;
 	padding: 0;
+}
+
+#infopages.page-gektar .page-info-left li.item-empty a {
+	color: #bfbfbf;
+}
+
+#infopages.page-gektar .page-info-left li.item-empty a:hover {
+	border-color: #bfbfbf;
+	color: #808080;
 }
 
 #infopages.page-gektar .page-info-left li a {
@@ -3376,6 +3389,16 @@ h1.tp-title {
     width: 100%;
 }
 
+.fullnews .tp-img-title {
+    color: #808080;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #f2f2f2;
+    display: block;
+    width: 100%;
+}
+
 .newsbody p {
     margin: 15px 0 25px;
 }
@@ -4133,7 +4156,7 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 #main-g-cc .autoplay-two div p,
 #main-g-cc .autoplay-two-02 div p,
 #main-g-cc .autoplay-two-03 div p,
-#main-g-cc .autoplay-two-4 div p {
+#main-g-cc .autoplay-two-04 div p {
 	margin-bottom: 5px;
 }
 
@@ -4154,9 +4177,9 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 }
 
 .autoplay-two .slick-slide img,
-.autoplay-two-02.slick-slide img,
+.autoplay-two-02 .slick-slide img,
 .autoplay-two-03 .slick-slide img,
-.autoplay-two-03 .slick-slide img {
+.autoplay-two-04 .slick-slide img {
 	width: 100%;
 	margin: 0;
 }
@@ -4601,6 +4624,13 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	width: 100%;
 	padding: 5px 15px 0;
 	display: inline-block;
+	font-weight: bold;
+}
+
+
+#main-g-cb .autoplay-four .slick-slide span a {
+	color: #000;
+	padding: 0;
 }
 
 
@@ -4640,7 +4670,6 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 	color: #262626;
 	font-size: 16px;
 	line-height: 20px;
-	font-weight: bold;
 	border: none;
 	padding: 0px 15px;
 	display: inline-block;
