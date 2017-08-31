@@ -1119,7 +1119,7 @@ nav .navbar-nav li a {
 }
 
 #infopages.page-gektar .calendar .news-search {
-	width: 29%;
+	width: 29% !important;
 }
 
 #infopages.page-gektar .news-search .input-group {
@@ -4172,8 +4172,9 @@ background: #a7cb6f url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbm
 .autoplay-two-02 .slick-list .slick-slide,
 .autoplay-two-03 .slick-list .slick-slide,
 .autoplay-two-04 .slick-list .slick-slide {
-	width: 33.33333%;
 	margin: 0;
+	display: inline-block;
+	float: left;
 }
 
 .autoplay-two .slick-slide img,
