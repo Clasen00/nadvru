@@ -294,6 +294,7 @@ header.active {
 	width: 100%;
 	z-index: 5;
     margin: 0!important;
+    top:0;
 }
 
 .frst-nav {
