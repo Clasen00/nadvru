@@ -2301,13 +2301,13 @@ a.mp-newsblk:hover .img-black-bg img {
 
 .mp-read-icon {
     border: 1px solid #f2f2f2;
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
-    padding: 10px;
 }
 
-
-.mp-read-icon .service-icon {}
+.mp-read-icon .service-icon {
+    padding: 30px 20px 20px;
+}
 
 .mp-read-icon ul {
     margin: 0px;
@@ -2315,21 +2315,21 @@ a.mp-newsblk:hover .img-black-bg img {
 }
 
 .mp-read-icon ul li {
-    margin: 0px;
-    padding: 0px;
     float: left;
+    margin: 0;
+    padding: 0;
     width: 33.3%;
 }
 
 .mp-read-icon ul li a {
-    text-align: left;
-    display: inline-block;
-    text-decoration: none;
-    border: none;
-    font-size: 15px;
-    line-height: 18px;
-    font-weight: bold;
+    border: medium none;
     color: #262626;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
 }
 
 .mp-read-icon ul li a img {
@@ -2347,7 +2347,8 @@ a.mp-newsblk:hover .img-black-bg img {
     font-size: 17px;
     font-weight: normal;
     line-height: 20px;
-    min-height: 100px;
+    height: 100px;
+    overflow: hidden;
 }
 
 .cifraicon {
@@ -5870,6 +5871,8 @@ svg.ic rect {
         margin-left: 50px;
         font-size: 15px;
         line-height: 18px;
+        height: auto;
+        overflow: visible;
     }
 
     .box-opros .labelscroll {
