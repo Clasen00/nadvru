@@ -949,3 +949,7 @@ p.cite-caption::before {
     margin-left: 30%;
 }
 }
+
+.map-pointer {
+  fill: #b8dec0;
+}
