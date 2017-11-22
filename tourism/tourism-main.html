@@ -554,12 +554,14 @@
                 </div>
 
                 <h2 class="region-caption">Популярные направления</h2>
-                <div class="container">
-                    <col-md-12>
-                        <div class="col-md-9"></div>
-                        <div class="col-md-3"></div>
-                    </col-md-12>
-                </div>
+                <a class="left mobie-slider-control left-scroll" id="right-mobie-scroller">
+                        <img src="https://nadv.ru/_v2/images/left-arrow.png" class="carousel-arrow" alt="Left arrow">
+                </a>
+
+                <a class="right mobie-slider-control right-scroll" id="left-mobie-scroller">
+           <img src="https://nadv.ru/_v2/images/right-arrow.png" class="carousel-arrow" alt="Left arrow">
+                </a>
+<!-- вернуться сюда -->
 
             </div>
         </div>
@@ -675,8 +677,7 @@
                 </a>
             <a class="right small-slider-control right-scroll" id="left-small-scroller">
        <img src="https://nadv.ru/_v2/images/right-arrow.png" class="carousel-arrow" alt="Left arrow">
-
-    </a>
+            </a>
 
             <div class="scroll-small-container horiz-scroll" id="scroll-feature">
                 <ul class="list-small-container scroll-images">
@@ -954,6 +955,19 @@
                 scrollLeft: '-=1500'
             }, 500);
         });
+
+// для мобилок
+        // $("#left-scroller").click(function(event) {
+        //     $('.scroll-container').animate({
+        //         scrollLeft: '+=1500'
+        //     }, 500);
+        // });
+        //
+        // $("#right-scroller").click(function(event) {
+        //     $('.scroll-container').animate({
+        //         scrollLeft: '-=1500'
+        //     }, 500);
+        // });
 
                                     (function($) {
                                 $('.gid-list__item').mouseover(function(e) {
