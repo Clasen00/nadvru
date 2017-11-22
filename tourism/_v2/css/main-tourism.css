@@ -1,0 +1,802 @@
+
+/*начало css туризма*/
+
+section#tur-service {
+    margin-bottom: 10em;
+}
+
+.carousel-tur-caption {
+    top: 15%;
+}
+
+.carousel-container {
+    padding: 0 !important;
+    max-height: 560px;
+}
+
+/*переопределяю бутстраповский класс*/
+
+.carousel-indicators .active {
+    background-color: #a7cc7c !important;
+}
+
+.carousel-itm {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.31);
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-tur-caption h3 {
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+span.glyphicon.glyphicon-arrow-left,
+span.glyphicon.glyphicon-arrow-right {
+    top: 40%;
+    font-size: 27px;
+}
+
+a.left.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 20px;
+    filter: alpha(opacity=50);
+}
+
+a.right.carousel-control,
+a.left.carousel-control {
+    width: 3%;
+    height: 17%;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: #000;
+    text-align: center;
+    opacity: 1 !important;
+    background-image: none !important;
+    top: 40%;
+    border: none;
+}
+
+.carousel-arrow {
+    position: relative;
+    top: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+    .carousel-arrow {
+        position: relative;
+        top: 0em;
+        width: 85%;
+    }
+    section#tur-service {
+        margin-bottom: 0em;
+    }
+}
+
+.tourism-map {
+    position: relative;
+    display: block;
+    left: -55%;
+    z-index: 0;
+    width: 160%;
+    top: -10rem;
+}
+
+.tourism-list {
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+h2.region-caption,
+.regions-map {
+    float: left;
+}
+
+.gid-list li {
+    height: 100%;
+    min-height: 50px;
+    margin: 0;
+    padding-left: 15%;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.gid-list a {
+    float: left;
+    padding-top: 15px;
+    margin-left: 15%;
+    font-size: 18px;
+    color: black;
+}
+
+.gid-list li:hover {
+    background-color: #ebf6ff;
+}
+
+.gid-list a:hover {
+    color: #73aee0;
+}
+
+#gid-item-1 {
+    background-image: url(https://nadv.ru/_v2/images/beach.png)
+}
+
+#gid-item-2 {
+    background-image: url(https://nadv.ru/_v2/images/snowboard.png)
+}
+
+#gid-item-3 {
+    background-image: url(https://nadv.ru/_v2/images/bus.png)
+}
+
+#gid-item-4 {
+    background-image: url(https://nadv.ru/_v2/images/family.png)
+}
+
+#gid-item-5 {
+    background-image: url(https://nadv.ru/_v2/images/boat.png)
+}
+
+#gid-item-6 {
+    background-image: url(https://nadv.ru/_v2/images/rafting.png)
+}
+
+#gid-item-7 {
+    background-image: url(https://nadv.ru/_v2/images/diving.png)
+}
+
+#gid-item-8 {
+    background-image: url(https://nadv.ru/_v2/images/eco-tourism.png)
+}
+
+#gid-item-9 {
+    background-image: url(https://nadv.ru/_v2/images/fountan.png)
+}
+
+#gid-item-10 {
+    background-image: url(https://nadv.ru/_v2/images/speleo.png)
+}
+
+#gid-item-11 {
+    background-image: url(https://nadv.ru/_v2/images/hunt.png)
+}
+
+#gid-item-12 {
+    background-image: url(https://nadv.ru/_v2/images/fishing.png)
+}
+
+#gid-item-13 {
+    background-image: url(https://nadv.ru/_v2/images/etno.png)
+}
+
+#gid-item-14 {
+    background-image: url(https://nadv.ru/_v2/images/food.png)
+}
+
+#gid-item-15 {
+    background-image: url(https://nadv.ru/_v2/images/etno.png)
+}
+
+.gid-list__item {
+    background-repeat: no-repeat;
+    background-position: 10px 10px, 0px 0px, 0px 0px;
+}
+
+.gid-list,
+.tourism-list {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.compare-list {
+    display: inline-flex;
+    width: 55%;
+    white-space: pre;
+}
+
+.compare-list li {
+    float: left;
+    padding-right: 5%;
+}
+
+ul.compare-color {
+    width: 100%;
+    height: 10px;
+    float: right;
+    position: relative;
+    left: -9%;
+    margin-top: -15px;
+}
+
+
+#compare-1 {
+    float: right;
+    background-color: #48820f;
+    width: 15%;
+    margin: 0;
+    padding: 1%;
+    position: relative;
+}
+
+#compare-2 {
+    float: right;
+    background-color: #83bd4a;
+    width: 15%;
+    margin: 0;
+    padding: 1%;
+    position: relative;
+}
+
+li#compare-3 {
+    float: right;
+    background-color: #a3dd6a;
+    width: 15%;
+    margin: 0;
+    padding: 1%;
+    position: relative;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    ul.compare-color {
+        width: 100%;
+        height: 10px;
+        float: left;
+        position: relative;
+        left: -32%;
+        margin-top: -15px;
+    }
+    li#compare-3,
+    li#compare-2,
+    li#compare-1 {
+        width: 20%;
+    }
+}
+
+.horizontal-cards {
+    height: 250px;
+    z-index: 0;
+    background: #333;
+}
+
+/*горизонтальный слайдер*/
+
+.scroll-container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+    position: relative;
+}
+
+.list-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: no-wrap;
+    padding: 0;
+    width: 100%;
+}
+
+.list-container > * {
+    /*  Target only the first top level children */
+    color: #fff;
+    background-color: #f4f4f4;
+    margin-right: -0.5rem;
+    width: 100%;
+    min-width: 275px;
+    height: 100%;
+    min-height: 315px;
+    padding: 0 0 3rem 0;
+    /*  The gap must be in the element definition */
+}
+
+.list-container > *:last-child {
+    margin-right: 0;
+}
+
+.list-container_item,
+.scroll-header {
+    color: #000;
+}
+
+.list-container_item,
+.scroll-header {
+    padding-left: 5%;
+}
+
+h3.scroll-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.list-container_item {
+    background-image: url(https://nadv.ru/_v2/images/marker.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px, 0px 0px, 0px 0px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 16px;
+    background-position-y: top;
+    padding-left: 2em;
+}
+
+a.right.slider-control,
+a.left.slider-control {
+    width: 3%;
+    height: 17%;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: #000;
+    text-align: center;
+    opacity: 1 !important;
+    background-image: none !important;
+    top: 40%;
+    border: none;
+}
+
+a.right.slider-control,
+a.left.slider-control {
+    position: absolute;
+    top: 15%;
+    z-index: 111;
+}
+
+a.right.slider-control {
+    right: 0%;
+}
+
+.relative {
+    position: relative;
+}
+
+.left {
+    float: left;
+}
+
+.cal-caption {
+    width: 13%;
+    position: absolute;
+    background-color: #0d75c7;
+    left: 90%;
+    bottom: 50%;
+    color: #fff;
+    z-index: 1111;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+}
+
+#cal-num {
+    font-size: 36px;
+    margin: 0
+}
+
+.ivent-image {
+    padding: 0 !important;
+}
+
+.ivent-image img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    position: relative;
+}
+
+.ivent-wrapp {
+    background-color: #efefef;
+    padding: 0;
+    height: 100%;
+    min-height: 300px !important;
+}
+
+.slider-control:hover,
+.small-slider-control:hover {
+    cursor: pointer;
+}
+
+#ivent-capt {
+    margin-top: 0;
+    font-size: 24px;
+
+}
+
+.ivent-text-wrapp {
+    padding-left: 3%;
+}
+
+p#ivent-about {
+    font-size: 16px;
+}
+
+#ivent-place {
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+    background-image: url(https://nadv.ru/_v2/images/blue-marker_06.png);
+    background-repeat: no-repeat;
+}
+
+.scroll-small-container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-left: 0;
+    position: relative;
+}
+
+.list-small-container > * {
+    color: #fff;
+    background-color: #ffffff;
+    margin-right: 1.5rem;
+    width: 100%;
+    min-width: 290px;
+    height: 100%;
+    max-height: 180px;
+    padding: 0 0 3rem 0;
+    position: relative;
+}
+
+
+.list-small-container {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: no-wrap;
+    padding: 0;
+    width: 100%;
+}
+
+
+.list-small-container > *:last-child {
+    margin-right: 0;
+}
+
+.small-slider-control {
+    width: 3%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: #000;
+    text-align: center;
+    opacity: 1 !important;
+    background-image: none !important;
+    top: 40%;
+    border: none;
+}
+
+a.right.small-slider-control,
+a.left.small-slider-control {
+    width: 3%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.54);
+    color: #000;
+    text-align: center;
+    opacity: 1 !important;
+    background-image: none !important;
+    top: 40%;
+    border: none;
+}
+
+a.right.small-slider-control,
+a.left.small-slider-control {
+    position: absolute;
+    top: 15%;
+    z-index: 111;
+    top: 35%;
+}
+
+a.right.small-slider-control {
+    right: 0%;
+}
+
+.list-small-container > li img {
+    position: relative;
+}
+
+.small-scroll-header {
+    font-weight: lighter;
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    padding: 0;
+    margin: 0;
+    width: 95%;
+    height: 110%;
+    background-color: rgba(0, 0, 0, 0.45);
+    float: left;
+    text-align: center;
+    padding-top: 4em;
+    padding-right: 2em;
+    margin-top: -18px;
+}
+
+.region-caption {
+    font-size: 32px;
+}
+
+.cal-small-caption {
+    width: 20%;
+    top: 20%;
+    bottom: 47%;
+    left: 84%;
+    height: 55%;
+    z-index: 0;
+}
+
+.scroll-data-header,
+.scroll-data-month,
+.scroll-year-header {
+    margin: 0;
+}
+
+.scroll-data-header {
+    font-size: 36px;
+    margin-bottom: -5px;
+}
+
+.card-big-footer {
+    font-size: 16px;
+    padding-top: 1em;
+    white-space: nowrap;
+}
+
+.useful-big-card.relative {
+    background-image: url(http://www.kalugasale.ru/photos/news/9924.jpg);
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    margin-left: 15px;
+    max-width: 715px;
+}
+
+.useful-big-card_capt {
+    position: absolute;
+    top: 65%;
+    color: white;
+    font-size: 24px;
+}
+
+.card-big-footer ul {
+    display: inline-flex;
+    width: 60%;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.useful-big-card__overlay {
+    width: 99.9%;
+    margin-left: -14px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
+}
+
+li.cards-counter {
+    background-image: url(https://nadv.ru/_v2/images/card-img.png);
+    background-repeat: no-repeat;
+    padding-left: 6%;
+    padding-right: 8%;
+    margin-left: 0;
+}
+
+.useful-big-card_capt p,
+.useful-middle-card_capt p,
+.useful-small-card_capt p {
+    position: relative;
+    left: 0.5em;
+}
+
+.useful-big-card_capt p,
+.useful-middle-card_capt p,
+.useful-small-card_capt p,
+.cite-p {
+    font-weight: 600;
+}
+
+.cards-date {
+    margin: 0;
+    margin-top: 10px;
+    padding-left: 0%;
+}
+
+.col-md-4.useful-cite.relative {
+    text-align: center;
+    border: 3px solid #dddddd;
+    height: 100%;
+    min-height: 300px;
+    padding-top: 2em;
+    margin-left: 10px;
+}
+
+.useful-cite {
+    font-size: 24px;
+}
+
+.useful-middle-card__overlay {
+    width: 99.9%;
+    margin-left: -4px;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
+}
+
+.useful-middle-card.relative {
+    margin-top: 10px;
+    min-width: 540px;
+    height: auto;
+    min-height: 300px;
+    max-height: 300px;
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-left: 15px;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1500837444203-ed9952db2108?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}
+
+
+.useful-middle-card_capt {
+    position: absolute;
+    top: 55%;
+    color: white;
+    font-size: 23px;
+}
+
+.card-middle-footer ul {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-left: 0;
+}
+
+.card-middle-footer {
+    font-size: 16px;
+    padding-top: 1em;
+    white-space: nowrap;
+}
+
+.useful-small-card.relative {
+    margin-top: 10px;
+    min-width: 355px;
+    padding-right: 0;
+    padding-left: 5px;
+    margin-left: 15px;
+    height: 100%;
+    min-height: 300px;
+    position: relative;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1500837444203-ed9952db2108?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}
+
+.useful-small-card__overlay {
+    width: 99.9%;
+    margin-left: -4px;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
+}
+
+.useful-small-card_capt {
+    position: absolute;
+    top: 55%;
+    color: white;
+    font-size: 20px;
+    width: 97%;
+}
+
+.card-small-footer ul {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 90%;
+    padding-left: 0;
+}
+
+.card-small-footer {
+    font-size: 16px;
+    padding-top: 1em;
+    white-space: nowrap;
+}
+
+
+.card-small-footer ul li.cards-counter {
+    padding-left: 8%;
+    width: 50%;
+}
+
+.default-map-color {
+    fill: #a3dd6a;
+    stroke: #baf481;
+}
+
+.map-color {
+    fill: #a3dd6a;
+    stroke: #baf481;
+}
+
+.city {
+    position: absolute;
+    z-index: 100;
+    background-color: #fd6969;
+    padding: 10px;
+    padding-right: 50px;
+    color: white;
+}
+
+.city::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 73px;
+    border: 15px solid transparent;
+    border-top: 13px solid #fd6969;
+}
+
+.tourism-section {
+    margin-bottom: 2em;
+}
+
+
+
+.loadmore-tourism a {
+    background: #c9c9c9;
+}
+
+a.tourism-allst {
+    padding: 0;
+    font-size: 15px;
+    background: none;
+    color: #73aee0;
+    text-transform: none;
+    position: relative;
+    left: 22%;
+    border-bottom: 1px dotted #73aee0;
+}
+
+@media screen and (max-width: 768px) {
+    section#tur-service {
+        margin-bottom: 0em;
+    }
+    ul.compare-color {
+        width: 100%;
+        height: 10px;
+        position: relative;
+        left: -32%;
+        margin-top: -15px;
+    }
+    .col-md-4.useful-cite.relative {
+        height: 100%;
+        max-height: 288px;
+        min-height: 288px;
+        padding-top: 0em;
+    }
+
+    .useful-big-card_capt {
+        top: 55%;
+    }
+
+    .useful-small-card_capt {
+        top: 65%;
+    }
+
+}
+
+p.cite-caption::before {
+    content: "";
+    width: 15%;
+    height: 2px;
+    background-color: #9ec144;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
