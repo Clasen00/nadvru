@@ -9259,11 +9259,11 @@ a.right.small-slider-control {
 
 .useful-big-card__overlay {
     width: 99.9%;
-    margin-left: -13px;
+    margin-left: -14px;
     height: 100%;
     position: absolute;
     top: 0%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
 }
 
 li.cards-counter {
@@ -9309,10 +9309,10 @@ li.cards-counter {
 
 .useful-middle-card__overlay {
     width: 99.9%;
-    margin-left: -3px;
+    margin-left: -4px;
     height: 100%;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.25);
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
 }
 
 .useful-middle-card.relative {
@@ -9360,6 +9360,14 @@ li.cards-counter {
     position: relative;
     background-size: cover;
     background-image: url(https://images.unsplash.com/photo-1500837444203-ed9952db2108?auto=format&fit=crop&w=1950&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+}
+
+.useful-small-card__overlay {
+    width: 99.9%;
+    margin-left: -4px;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, #eeeeee00, #00000070);
 }
 
 .useful-small-card_capt {
