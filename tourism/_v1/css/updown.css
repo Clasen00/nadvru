@@ -1,0 +1,66 @@
+.top_btn{display: none;}
+.top_btn .top_btn_panel{display:none;}
+
+.top_btn { 	
+	border-radius: 5px;
+	bottom: 30px;
+	display: none;
+	height: 30px;
+	position: fixed;
+	right: 15px;
+	width: 70px;
+	z-index: 999;
+}
+
+.top_btn .top_btn_panel {
+	display: block;
+	font-size: 11px;
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.top_btn:hover {
+  -moz-opacity: 0.9;
+  filter: alpha(opacity=90);
+  opacity: 0.9; 
+  cursor: pointer;
+}
+
+.top_btn .top_btn_button {
+	font-family: tahoma,arial,verdana,sans-serif;
+	font-weight: bold;
+	line-height: 8px;
+	text-align: left;
+}	
+.top_btn .top_btn_button .arrow {
+	background-position:0 0;
+	display: block;
+	height: 20px;
+	padding-left: 0;
+	width: 70px;
+	background-repeat:no-repeat;
+}
+
+.top_btn .top_btn_button .arrow.up 
+{
+	background-position: 28px 9px;
+}
+
+.top_btn .top_btn_panel .label{
+	display: block;
+	text-align: center;
+	width: 70px;
+	color:#fff;
+	font-size: 100% !important;
+}
+
+.top_btn .top_btn_button .arrow {
+    background-image: url("http://primamedia.ru/action/core/media/img/sprite_icon.png");
+}
+.top_btn {
+    background: rgba(0, 0, 0, 0.23) none repeat scroll 0 0;
+}
+.top_btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+} 
