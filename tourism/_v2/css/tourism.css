@@ -1,4 +1,3 @@
-
 /*начало css туризма*/
 
 section#tur-service {
@@ -11,7 +10,7 @@ section#tur-service {
 
 .carousel-container {
     padding: 0 !important;
-    max-height: 560px;
+    max-height: 640px;
 }
 
 /*переопределяю бутстраповский класс*/
@@ -64,7 +63,7 @@ a.left.carousel-control {
 
 .carousel-arrow {
     position: relative;
-    top: 1.5em;
+    top: 2.2em;
 }
 
 @media screen and (max-width: 480px) {
@@ -91,6 +90,7 @@ a.left.carousel-control {
     background-color: #fff;
     z-index: 1;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    max-width: 370px;
 }
 
 h2.region-caption,
@@ -102,9 +102,10 @@ h2.region-caption,
     height: 100%;
     min-height: 50px;
     margin: 0;
-    padding-left: 15%;
+    padding-left: 10%;
     white-space: pre-wrap;
     overflow: hidden;
+    padding-right: 1%;
 }
 
 .gid-list a {
@@ -132,7 +133,8 @@ h2.region-caption,
 }
 
 #gid-item-3 {
-    background-image: url(https://nadv.ru/_v2/images/bus.png)
+    background-image: url(https://nadv.ru/_v2/images/bus.png);
+    background-position: 25px 25px, 0px 0px, 0px 0px;
 }
 
 #gid-item-4 {
@@ -185,7 +187,7 @@ h2.region-caption,
 
 .gid-list__item {
     background-repeat: no-repeat;
-    background-position: 10px 10px, 0px 0px, 0px 0px;
+    background-position: 25px 10px, 0px 0px, 0px 0px;
 }
 
 .gid-list,
@@ -220,7 +222,6 @@ ul.compare-color {
     background-color: #48820f;
     width: 15%;
     margin: 0;
-    padding: 1%;
     position: relative;
 }
 
@@ -229,7 +230,6 @@ ul.compare-color {
     background-color: #83bd4a;
     width: 15%;
     margin: 0;
-    padding: 1%;
     position: relative;
 }
 
@@ -238,8 +238,12 @@ li#compare-3 {
     background-color: #a3dd6a;
     width: 15%;
     margin: 0;
-    padding: 1%;
     position: relative;
+}
+
+li#compare-3, li#compare-2, li#compare-1 {
+    border-right: 1px solid #fff;
+    padding-bottom: 5px;
 }
 
 
@@ -249,7 +253,7 @@ li#compare-3 {
         height: 10px;
         float: left;
         position: relative;
-        left: -32%;
+        left: -38%;;
         margin-top: -15px;
     }
     li#compare-3,
@@ -257,6 +261,11 @@ li#compare-3 {
     li#compare-1 {
         width: 20%;
     }
+
+    .tourism-map {
+     left: -75%;
+}
+
 }
 
 .horizontal-cards {
@@ -413,6 +422,7 @@ a.right.slider-control {
 
 p#ivent-about {
     font-size: 16px;
+    float: left;
 }
 
 #ivent-place {
@@ -474,7 +484,7 @@ p#ivent-about {
 a.right.small-slider-control,
 a.left.small-slider-control {
     width: 3%;
-    height: 25%;
+    height: 35%;
     background-color: rgba(255, 255, 255, 0.54);
     color: #000;
     text-align: center;
@@ -501,7 +511,6 @@ a.right.small-slider-control {
 }
 
 .small-scroll-header {
-    font-weight: lighter;
     font-size: 18px;
     position: absolute;
     top: 10%;
@@ -511,23 +520,28 @@ a.right.small-slider-control {
     height: 110%;
     background-color: rgba(0, 0, 0, 0.45);
     float: left;
-    text-align: center;
+    text-align: left;
     padding-top: 4em;
-    padding-right: 2em;
+    padding-right: 3em;
+    padding-left: 1em;
+    font-weight: 600;
     margin-top: -18px;
 }
 
 .region-caption {
     font-size: 32px;
+    padding-left: 5%;
+    margin-bottom: 20px;
 }
 
 .cal-small-caption {
-    width: 20%;
+    width: 24%;
     top: 20%;
     bottom: 47%;
     left: 84%;
     height: 55%;
     z-index: 0;
+}
 }
 
 .scroll-data-header,
@@ -588,17 +602,12 @@ li.cards-counter {
     margin-left: 0;
 }
 
-.useful-big-card_capt p,
-.useful-middle-card_capt p,
-.useful-small-card_capt p {
+.useful-big-card_capt p, .useful-middle-card_capt p, .useful-small-card_capt p{
     position: relative;
     left: 0.5em;
 }
 
-.useful-big-card_capt p,
-.useful-middle-card_capt p,
-.useful-small-card_capt p,
-.cite-p {
+.useful-big-card_capt p, .useful-middle-card_capt p, .useful-small-card_capt p, .cite-p  {
     font-weight: 600;
 }
 
@@ -654,7 +663,7 @@ li.cards-counter {
     display: inline-flex;
     justify-content: space-around;
     width: 60%;
-    padding-left: 0;
+    padding-left: 0; 
 }
 
 .card-middle-footer {
@@ -689,7 +698,7 @@ li.cards-counter {
     top: 55%;
     color: white;
     font-size: 20px;
-    width: 97%;
+    width: 97%;		
 }
 
 .card-small-footer ul {
@@ -707,8 +716,8 @@ li.cards-counter {
 
 
 .card-small-footer ul li.cards-counter {
-    padding-left: 8%;
-    width: 50%;
+        padding-left: 8%;
+        width: 50%;
 }
 
 .default-map-color {
@@ -721,12 +730,12 @@ li.cards-counter {
     stroke: #baf481;
 }
 
-.city {
+.city { 
     position: absolute;
     z-index: 100;
-    background-color: #fd6969;
+    background-color: #7e7e7e;
     padding: 10px;
-    padding-right: 50px;
+    padding-right: 10px;
     color: white;
 }
 
@@ -737,9 +746,9 @@ li.cards-counter {
     display: block;
     position: absolute;
     top: 40px;
-    left: 73px;
+    left: 33px;
     border: 15px solid transparent;
-    border-top: 13px solid #fd6969;
+    border-top: 13px solid #7e7e7e;
 }
 
 .tourism-section {
@@ -775,19 +784,34 @@ a.tourism-allst {
         margin-top: -15px;
     }
     .col-md-4.useful-cite.relative {
-        height: 100%;
-        max-height: 288px;
-        min-height: 288px;
-        padding-top: 0em;
-    }
+    height: 100%;
+    max-height: 288px;
+    min-height: 288px;
+    padding-top: 0em;
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
-    .useful-big-card_capt {
-        top: 55%;
-    }
+.useful-big-card_capt {
+    top: 55%;
+}
 
-    .useful-small-card_capt {
-        top: 65%;
-    }
+.useful-small-card_capt {
+    top: 65%;
+}
+
+.useful-big-card.relative {
+    width: 100% !important;
+    min-width: 100% !important;
+}
+
+.gid-list a {
+    margin-left: 23%;
+}
+
+p.cite-caption::before {
+   top: 18% !important;
+}
 
 }
 
@@ -799,4 +823,19 @@ p.cite-caption::before {
     position: absolute;
     top: 35%;
     left: 40%;
+}
+
+@media screen and (max-width: 1024px) {
+   .useful-big-card.relative {
+    width: 63%;
+    min-width: 63%;
+}
+    .useful-middle-card.relative {
+	width: 98%;
+}
+
+.useful-small-card.relative {
+    min-width: 440px;
+}
+
 }
