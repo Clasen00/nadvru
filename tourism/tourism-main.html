@@ -520,20 +520,20 @@
                 </a>
             <div class="col-md-4 col-sm-4 tourism-list">
               <ul class="col-md-12 gid-list">
-                <li id="gid-item-1" class="gid-list__item"><a href="">Пляжный отдых</a></li>
-                <li id="gid-item-2" class="gid-list__item"><a href="">Зимний спорт</a></li>
-                <li id="gid-item-3" class="gid-list__item"><a href="">Культурно-познавательный отдых</a></li>
-                <li id="gid-item-4" class="gid-list__item"><a href="">Семеный отдых</a></li>
-                <li id="gid-item-5" class="gid-list__item"><a href="">Круизный отдых</a></li>
-                <li id="gid-item-6" class="gid-list__item"><a href="">Рафтинг</a></li>
-                <li id="gid-item-7" class="gid-list__item"><a href="">Дайвинг</a></li>
-                <li id="gid-item-8" class="gid-list__item"><a href="">Экотуризм</a></li>
-                <li id="gid-item-9" class="gid-list__item"><a href="">Лечебно-оздоровительный отдых</a></li>
-                <li id="gid-item-10" class="gid-list__item"><a href="">Скалолазание/спелео</a></li>
-                <li id="gid-item-11" class="gid-list__item"><a href="">Охота</a></li>
-                <li id="gid-item-12" class="gid-list__item"><a href="">Рыбалка</a></li>
-                <li id="gid-item-13" class="gid-list__item"><a href="">Этнотуризм</a></li>
-                <li id="gid-item-14" class="gid-list__item"><a href="">Гастротуризм</a></li>
+                <li id="gid-item-1" class="gid-list__item"><a href="#" class="noclick">Пляжный отдых</a></li>
+                <li id="gid-item-2" class="gid-list__item"><a href="#" class="noclick">Зимний спорт</a></li>
+                <li id="gid-item-3" class="gid-list__item"><a href="#" class="noclick">Культурно-познавательный отдых</a></li>
+                <li id="gid-item-4" class="gid-list__item"><a href="#" class="noclick">Семеный отдых</a></li>
+                <li id="gid-item-5" class="gid-list__item"><a href="#" class="noclick">Круизный отдых</a></li>
+                <li id="gid-item-6" class="gid-list__item"><a href="#" class="noclick">Рафтинг</a></li>
+                <li id="gid-item-7" class="gid-list__item"><a href="#" class="noclick">Дайвинг</a></li>
+                <li id="gid-item-8" class="gid-list__item"><a href="#" class="noclick">Экотуризм</a></li>
+                <li id="gid-item-9" class="gid-list__item"><a href="#" class="noclick">Лечебно-оздоровительный отдых</a></li>
+                <li id="gid-item-10" class="gid-list__item"><a href="#" class="noclick">Скалолазание/спелео</a></li>
+                <li id="gid-item-11" class="gid-list__item"><a href="#" class="noclick">Охота</a></li>
+                <li id="gid-item-12" class="gid-list__item"><a href="#" class="noclick">Рыбалка</a></li>
+                <li id="gid-item-13" class="gid-list__item"><a href="#" class="noclick">Этнотуризм</a></li>
+                <li id="gid-item-14" class="gid-list__item"><a href="#" class="noclick">Гастротуризм</a></li>
               </ul>
             </div>
             <div class="col-md-8 col-sm-8 tourism-map-wrapp">
@@ -982,8 +982,8 @@
         $('.map-pointer').each(function(e) {
           $('body').prepend('<div class="city" id="city' + e + '"></div>');
           $("#city" + e).html($(this).attr('tittle')).css({
-            "top": $(this).offset().top,
-            "left": $(this).offset().left - 30
+            "top": $(this).offset().top - 30,
+            "left": $(this).offset().left - 40
           });
 
         })

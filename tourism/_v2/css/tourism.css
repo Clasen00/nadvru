@@ -744,7 +744,7 @@ li.cards-counter {
     position: absolute;
     z-index: 100;
     background-color: #7e7e7e;
-    padding: 10px;
+    padding: 5px;
     padding-right: 10px;
     color: white;
 }
@@ -755,8 +755,8 @@ li.cards-counter {
     height: 10px;
     display: block;
     position: absolute;
-    top: 40px;
-    left: 33px;
+    top: 30px;
+    left: 29px;
     border: 15px solid transparent;
     border-top: 13px solid #7e7e7e;
 }
@@ -952,4 +952,8 @@ p.cite-caption::before {
 
 .map-pointer {
   fill: #b8dec0;
+}
+
+.noclick {
+  pointer-events: none;
 }
