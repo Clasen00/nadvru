@@ -63,17 +63,20 @@ a.left.carousel-control {
 
 .carousel-arrow {
     position: relative;
-    top: 2.2em;
+    top: 1.9em;
 }
 
 @media screen and (max-width: 480px) {
-    .carousel-arrow {
-        position: relative;
-        top: 0em;
-        width: 85%;
-    }
+  .carousel-arrow {
+      position: relative;
+      width: 85%;
+      top: 30%;
+  }
     section#tur-service {
         margin-bottom: 0em;
+    }
+    .useful-middle-card.relative, .useful-small-card.relative {
+      min-width: 260px !important;
     }
 }
 
@@ -393,14 +396,11 @@ a.right.slider-control {
 
 .ivent-image {
     padding: 0 !important;
+    background-image: url("https://nadv.ru/_v2/images/tourism-cal_03_03.png");
+    background-size: cover;
+    height: 300px;
 }
 
-.ivent-image img {
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    position: relative;
-}
 
 .ivent-wrapp {
     background-color: #efefef;
@@ -745,21 +745,25 @@ li.cards-counter {
     position: absolute;
     z-index: 100;
     background-color: #7e7e7e;
-    padding: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     padding-right: 10px;
+    padding-left: 10px;
     color: white;
+    font-weight: 600;
+    white-space: pre;
 }
 
 .city::before {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     display: block;
     position: absolute;
-    top: 40px;
-    left: 33px;
-    border: 15px solid transparent;
-    border-top: 13px solid #7e7e7e;
+    top: 30px;
+    left: 29px;
+    border: 6px solid transparent;
+    border-top: 6px solid #7e7e7e;
 }
 
 .loadmore-tourism a {
@@ -817,6 +821,10 @@ a.tourism-allst {
     p.cite-caption::before {
         top: 18% !important;
     }
+    a.right.carousel-control, a.left.carousel-control {
+      width: 5%;
+      height: 20%;
+    }
 
 }
 
@@ -845,13 +853,32 @@ p.cite-caption::before {
 
 }
 
-.mobie-slider-control {}
+.carousel-itm {
+background-image: url(http://35photo.ru/photos_main/410/2053141.jpg);
+background-size: cover;
+min-height: 560px;
+max-height: 560px;
+}
 
 @media screen and (min-width: 490px) {
     .mobie-slider-control {
         display: none;
     }
 }
+
+
+.map-pointer {
+  fill: #b8dec0;
+}
+
+.noclick {
+  pointer-events: none;
+}
+
+.carousel-container > .item > img {
+  height: 560px !important;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .tourism-map {
@@ -921,19 +948,26 @@ p.cite-caption::before {
         background-color: #fff;
         z-index: 1;
         box-shadow: none;
-        max-width: 370px;
+        width: 285px;
     }
     .col-md-12.tour-howmuch {
-        position: relative;
-        left: 85%;
+      position: relative;
+      left: 78%;
     }
 
+    .compare-list {
+      display: inline-flex;
+      width: 55%;
+      white-space: pre;
+      right: 3em;
+      position: relative;
+}
     ul.compare-color {
-        width: 100%;
-        height: 10px;
-        position: relative;
-        left: 3%;
-        margin-top: -15px;
+      width: 100%;
+      height: 10px;
+      position: relative;
+      left: -10%;
+      margin-top: -15px;
     }
     #compare-1,
     #compare-2,
@@ -941,6 +975,90 @@ p.cite-caption::before {
         width: 33% !important;
     }
     .gid-list a {
-    margin-left: 30%;
+      margin-left: 30%;
 }
+  .carousel-container > .item > img {
+    height: 310px !important;
+}
+.carousel-tur-caption h3 {
+    font-size: 18px;
+    position: relative;
+    top: 0em;
+    white-space: pre-line;
+}
+
+a.right.carousel-control, a.left.carousel-control {
+    width: 9%;
+    height: 20%;
+}
+
+.col-md-6.relative.ivent-image img {
+    visibility: hidden;
+}
+
+  .carousel-inner>.item {
+    height: 340px !important;
+    min-height: 340px !important;
+  }
+
+  a.right.slider-control, a.left.slider-control, a.right.small-slider-control, a.left.small-slider-control {
+    width: 10%;
+  }
+
+  .useful-big-card_capt p, .useful-middle-card_capt p, .useful-small-card_capt p {
+    left: 0;
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .cal-caption {
+    width: 25%;
+    left: 85%;
+    bottom: 50%;
+}
+.ivent-wrapp {
+  background-color: #efefef;
+  padding: 0;
+  height: auto;
+  min-height: 455px !important;
+}
+
+#ivent-place {
+  padding-left: 8%;
+}
+
+p#ivent-about {
+    padding: 1%;
+}
+
+.ivent-text-wrapp {
+  padding: 0
+}
+
+.card-middle-footer ul, .card-big-footer ul {
+  width: 50%;
+  position: relative;
+  left: 19%;
+}
+
+.useful-small-card_capt {
+    top: 40%;
+}
+
+.useful-middle-card_capt, .useful-small-card_capt, .useful-big-card_capt {
+  width: 95%;
+  top: 40%;
+}
+
+li.cards-counter {
+  padding-left: 15%;
+  padding-right: 6%;
+}
+
+
+}
+
+.carousel-inner>.item {
+  height: 100%;
+  min-height: 560px;
 }
