@@ -763,7 +763,8 @@ li.cards-counter {
 }
 
 .tourism-section {
-    margin-bottom: 2em;
+
+    overflow: hidden;
 }
 
 
@@ -949,4 +950,12 @@ p.cite-caption::before {
     .gid-list a {
     margin-left: 30%;
 }
+}
+
+.contour-map-wrapp {
+    margin-bottom: 1em
+}
+
+.region-type-wrapp {
+   
 }
