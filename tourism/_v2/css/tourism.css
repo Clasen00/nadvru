@@ -63,15 +63,15 @@ a.left.carousel-control {
 
 .carousel-arrow {
     position: relative;
-    top: 2.2em;
+    top: 1.9em;
 }
 
 @media screen and (max-width: 480px) {
-    .carousel-arrow {
-        position: relative;
-        top: 0em;
-        width: 85%;
-    }
+  .carousel-arrow {
+      position: relative;
+      top: 0.9em;
+      width: 85%;
+  }
     section#tur-service {
         margin-bottom: 0em;
     }
@@ -392,14 +392,10 @@ a.right.slider-control {
 
 .ivent-image {
     padding: 0 !important;
+    background-image: url("https://nadv.ru/_v2/images/tourism-cal_03_03.png");
+    background-size: cover;
 }
 
-.ivent-image img {
-    width: 100%;
-    height: 100%;
-    min-height: 300px;
-    position: relative;
-}
 
 .ivent-wrapp {
     background-color: #efefef;
@@ -826,6 +822,10 @@ a.tourism-allst {
     p.cite-caption::before {
         top: 18% !important;
     }
+    a.right.carousel-control, a.left.carousel-control {
+      width: 5%;
+      height: 20%;
+    }
 
 }
 
@@ -854,13 +854,32 @@ p.cite-caption::before {
 
 }
 
-.mobie-slider-control {}
+.carousel-itm {
+background-image: url(http://35photo.ru/photos_main/410/2053141.jpg);
+background-size: cover;
+min-height: 560px;
+max-height: 560px;
+}
 
 @media screen and (min-width: 490px) {
     .mobie-slider-control {
         display: none;
     }
 }
+
+
+.map-pointer {
+  fill: #b8dec0;
+}
+
+.noclick {
+  pointer-events: none;
+}
+
+.carousel-container > .item > img {
+  height: 560px !important;
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .tourism-map {
@@ -933,16 +952,24 @@ p.cite-caption::before {
         max-width: 370px;
     }
     .col-md-12.tour-howmuch {
-        position: relative;
-        left: 85%;
+      position: relative;
+      left: 78%;
     }
 
+    .compare-list {
+      display: inline-flex;
+      width: 55%;
+      white-space: pre;
+      right: 3em;
+      position: relative;
+}
+
     ul.compare-color {
-        width: 100%;
-        height: 10px;
-        position: relative;
-        left: 3%;
-        margin-top: -15px;
+      width: 100%;
+      height: 10px;
+      position: relative;
+      left: -10%;
+      margin-top: -15px;
     }
     #compare-1,
     #compare-2,
@@ -950,14 +977,35 @@ p.cite-caption::before {
         width: 33% !important;
     }
     .gid-list a {
-    margin-left: 30%;
+      margin-left: 30%;
 }
+  .carousel-container > .item > img {
+    height: 310px !important;
+}
+.carousel-tur-caption h3 {
+    font-size: 18px;
+    position: relative;
+    top: 0em;
+    white-space: pre-line;
 }
 
-.map-pointer {
-  fill: #b8dec0;
+a.right.carousel-control, a.left.carousel-control {
+    width: 9%;
+    height: 20%;
 }
 
-.noclick {
-  pointer-events: none;
+.col-md-6.relative.ivent-image img {
+    visibility: hidden;
+}
+
+  .carousel-inner>.item {
+    height: 340px !important;
+    min-height: 340px !important;
+  }
+
+}
+
+.carousel-inner>.item {
+  height: 100%;
+  min-height: 560px;
 }
