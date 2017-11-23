@@ -762,13 +762,6 @@ li.cards-counter {
     border-top: 13px solid #7e7e7e;
 }
 
-.tourism-section {
-
-    overflow: hidden;
-}
-
-
-
 .loadmore-tourism a {
     background: #c9c9c9;
 }
@@ -950,12 +943,4 @@ p.cite-caption::before {
     .gid-list a {
     margin-left: 30%;
 }
-}
-
-.contour-map-wrapp {
-    margin-bottom: 1em
-}
-
-.region-type-wrapp {
-   
 }
