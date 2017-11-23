@@ -766,13 +766,6 @@ li.cards-counter {
     border-top: 6px solid #7e7e7e;
 }
 
-.tourism-section {
-
-    overflow: hidden;
-}
-
-
-
 .loadmore-tourism a {
     background: #c9c9c9;
 }
@@ -1061,17 +1054,11 @@ li.cards-counter {
   padding-left: 15%;
   padding-right: 6%;
 }
-
-
 }
 
 .carousel-inner>.item {
   height: 100%;
   min-height: 560px;
-}
-
-.contour-map-wrapp {
-    margin-bottom: 1em
 }
 
 .region-type-wrapp {
