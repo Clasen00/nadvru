@@ -69,11 +69,14 @@ a.left.carousel-control {
 @media screen and (max-width: 480px) {
   .carousel-arrow {
       position: relative;
-      top: 0.9em;
       width: 85%;
+      top: 30%;
   }
     section#tur-service {
         margin-bottom: 0em;
+    }
+    .useful-middle-card.relative, .useful-small-card.relative {
+      min-width: 260px !important;
     }
 }
 
@@ -394,6 +397,7 @@ a.right.slider-control {
     padding: 0 !important;
     background-image: url("https://nadv.ru/_v2/images/tourism-cal_03_03.png");
     background-size: cover;
+    height: 300px;
 }
 
 
@@ -949,7 +953,7 @@ max-height: 560px;
         background-color: #fff;
         z-index: 1;
         box-shadow: none;
-        max-width: 370px;
+        width: 285px;
     }
     .col-md-12.tour-howmuch {
       position: relative;
@@ -963,7 +967,6 @@ max-height: 560px;
       right: 3em;
       position: relative;
 }
-
     ul.compare-color {
       width: 100%;
       height: 10px;
@@ -1002,6 +1005,61 @@ a.right.carousel-control, a.left.carousel-control {
     height: 340px !important;
     min-height: 340px !important;
   }
+
+  a.right.slider-control, a.left.slider-control, a.right.small-slider-control, a.left.small-slider-control {
+    width: 10%;
+  }
+
+  .useful-big-card_capt p, .useful-middle-card_capt p, .useful-small-card_capt p {
+    left: 0;
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .cal-caption {
+    width: 25%;
+    left: 85%;
+    bottom: 50%;
+}
+.ivent-wrapp {
+  background-color: #efefef;
+  padding: 0;
+  height: auto;
+  min-height: 455px !important;
+}
+
+#ivent-place {
+  padding-left: 8%;
+}
+
+p#ivent-about {
+    padding: 1%;
+}
+
+.ivent-text-wrapp {
+  padding: 0
+}
+
+.card-middle-footer ul, .card-big-footer ul {
+  width: 50%;
+  position: relative;
+  left: 19%;
+}
+
+.useful-small-card_capt {
+    top: 40%;
+}
+
+.useful-middle-card_capt, .useful-small-card_capt, .useful-big-card_capt {
+  width: 95%;
+  top: 40%;
+}
+
+li.cards-counter {
+  padding-left: 15%;
+  padding-right: 6%;
+}
+
 
 }
 
