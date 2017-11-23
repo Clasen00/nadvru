@@ -750,6 +750,7 @@ li.cards-counter {
     padding-left: 10px;
     color: white;
     font-weight: 600;
+    white-space: pre;
 }
 
 .city::before {
