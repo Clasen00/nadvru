@@ -744,21 +744,24 @@ li.cards-counter {
     position: absolute;
     z-index: 100;
     background-color: #7e7e7e;
-    padding: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
     padding-right: 10px;
+    padding-left: 10px;
     color: white;
+    font-weight: 600;
 }
 
 .city::before {
     content: "";
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     display: block;
     position: absolute;
     top: 30px;
     left: 29px;
-    border: 15px solid transparent;
-    border-top: 13px solid #7e7e7e;
+    border: 6px solid transparent;
+    border-top: 6px solid #7e7e7e;
 }
 
 .tourism-section {
