@@ -1104,10 +1104,6 @@ li.cards-counter {
   min-height: 560px;
 }
 
-.region-type-wrapp {
-    
-}
-
 .tourism-form-wrapp {
     margin-top: 20px;
     margin-left: 1rem;
@@ -1156,3 +1152,16 @@ li.cards-counter {
 }
 
 
+.region-list-container > * {
+    color: #fff;
+    background-color: #f4f4f4;
+    margin-right: 0;
+    width: 100%;
+    min-width: 700px;
+    height: 100%;
+    min-height: 400px;
+    background-image: url(https://nadv.ru/_v2/images/defaultimg.png);
+    background-size: cover;
+    padding: 0 0 3rem 0;
+    margin-left: 0;
+}
