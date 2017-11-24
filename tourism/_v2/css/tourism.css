@@ -1164,4 +1164,9 @@ li.cards-counter {
     background-size: cover;
     padding: 0 0 3rem 0;
     margin-left: 0;
+    border-right: 3px solid #cce8ff;
+}
+
+.region-slider-control {
+  top: 45% !important;  
 }
