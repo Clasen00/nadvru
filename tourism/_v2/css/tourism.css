@@ -52,7 +52,7 @@ a.right.carousel-control,
 a.left.carousel-control {
     width: 3%;
     height: 17%;
-    background-color: rgba(255, 255, 255, 0.54);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #000;
     text-align: center;
     opacity: 1 !important;
@@ -306,7 +306,7 @@ li#compare-1 {
 .scroll-container {
     overflow-y: hidden;
     overflow-x: hidden;
-    padding: 1rem;
+    padding: 1rem 0 0 0;
     background-color: rgba(255, 255, 255, 0.5);
     padding-left: 0;
     position: relative;
@@ -368,7 +368,7 @@ a.right.slider-control,
 a.left.slider-control {
     width: 3%;
     height: 17%;
-    background-color: rgba(255, 255, 255, 0.54);
+    background-color: rgba(0, 0, 0, 0.1);
     color: #000;
     text-align: center;
     opacity: 1 !important;
@@ -1108,10 +1108,6 @@ li.cards-counter {
 <<<<<<< HEAD
 =======
 
-.region-type-wrapp {
-    
-}
-
 .tourism-form-wrapp {
     margin-top: 20px;
     margin-left: 1rem;
@@ -1147,6 +1143,7 @@ li.cards-counter {
     -moz-appearance: none;
     -webkit-appearance: none;
     cursor: pointer;
+    color: #0393d0;
 }
 
 .gid-option {
@@ -1160,4 +1157,143 @@ li.cards-counter {
 }
 
 
+<<<<<<< HEAD
+>>>>>>> staging
+=======
+.region-list-container > * {
+    color: #fff;
+    background-color: #f4f4f4;
+    margin-right: 0;
+    width: 100%;
+    min-width: 700px;
+    height: 100%;
+    min-height: 400px;
+    background-image: url(https://nadv.ru/_v2/images/defaultimg.png);
+    background-size: cover;
+    padding: 0 0 3rem 0;
+    margin-left: 0;
+    border-right: 3px solid #cce8ff;
+}
+
+.region-slider-control {
+  top: 45% !important;  
+}
+
+section.region-description {
+    margin-top: 30px;
+}
+
+.region-description__h1-tittle {
+    margin: 0;
+    font-size: 36px;
+    padding-top: 0;
+    margin-left: 0px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.region-description__h2-tittle {
+    font-size: 30px;
+    margin: 0px;
+    padding-bottom: 16px;
+    line-height: 26px;
+    padding-top: 30px;
+}
+
+.region-description__cite {
+    font-size: 20px;
+    line-height: 26px;
+    color: #1b8bc2;
+    border-left: 3px solid #1b8bc2;
+    padding-left: 30px;
+    margin: 20px 0 40px 0;
+}
+
+p.region-description__text {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.region-map-img {
+background-image: url(https://nadv.ru/_v2/images/map_primorye.png);
+    background-size: cover;
+    height: 100%;
+    min-height: 656px;
+    position: relative;
+    left: -50rem;
+    width: 280%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .region-slider-control {
+    top: 45% !important;
+    width: 5% !important;
+    height: 20% !important;
+}
+}
+
+
+@media screen and (max-width: 1024px) {
+    .region-map-img {
+        position: relative;
+        left: -58rem;
+        width: 360%;
+    }
+    .region-slider-control {
+    top: 45% !important;
+    width: 5% !important;
+    height: 20% !important;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .region-map-img {
+        position: relative;
+        left: -35rem;
+        width: 185%;
+    }
+    
+}
+
+.hidden-region-description-layout {
+    display: none;
+}
+
+div#hidden-region-layout-5 {
+    margin-left: -15px;
+}
+
+.region-show-more {
+    float: right;
+    font-size: 24px;
+    color: #1b8bc2;
+    border-bottom: 1px dotted #1b8bc2;
+    cursor: pointer;
+}
+
+section.region-attraction {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.region-attraction-container.row {
+    margin: 0;
+}
+
+.col-md-5.col-sm-5.attraction-rest {
+    height: 100%;
+    min-height: 760px;
+    background-color: #cff4ff;
+}
+
+li.typeof-rest-item {
+    height: 120px;
+    width: 120px;
+    background-color: #ffffff;
+    float: left;
+}
+.typeof-rest-wrapp {
+    padding-left: 10%;
+}
 >>>>>>> staging
