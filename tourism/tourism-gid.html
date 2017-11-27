@@ -633,9 +633,9 @@
       }, 500);
     });
       
-      
-    (function($) {
-      $('.gid-list__item').mouseover(function(e) {
+
+          (function($) {
+      $('.gid-list__item').click(function(e) {
 
         $('.map-pointer').each(function(e) {
           $('body').prepend('<div class="city" id="city' + e + '"></div>');
@@ -648,11 +648,7 @@
       });
 
     })(jQuery);
-    (function($) {
-      $('.gid-list__item').mouseleave(function() {
-        $('.city').remove();
-      })
-    })(jQuery);
+      
   </script>
   <!--конец макета-->
 
