@@ -1275,6 +1275,7 @@ ul.typeof-rest-list.col-md-8,
 .attraction-attractions {
     margin: 0;
     padding: 0;
+    padding-bottom: 10px;
 }
 
 .col-md-5.col-sm-5.attraction-rest {
