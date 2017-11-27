@@ -1097,16 +1097,12 @@ li.cards-counter {
   padding-left: 15%;
   padding-right: 6%;
 }
-
-
 }
 
 .carousel-inner>.item {
   height: 100%;
   min-height: 560px;
 }
-<<<<<<< HEAD
-=======
 
 .tourism-form-wrapp {
     margin-top: 20px;
@@ -1157,9 +1153,6 @@ li.cards-counter {
 }
 
 
-<<<<<<< HEAD
->>>>>>> staging
-=======
 .region-list-container > * {
     color: #fff;
     background-color: #f4f4f4;
@@ -1296,4 +1289,3 @@ li.typeof-rest-item {
 .typeof-rest-wrapp {
     padding-left: 10%;
 }
->>>>>>> staging
