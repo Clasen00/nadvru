@@ -1270,14 +1270,33 @@ section.region-attraction {
     margin-top: 20px;
 }
 
-.region-attraction-container.row {
+.region-attraction-container.row,
+ul.typeof-rest-list.col-md-8,
+.attraction-attractions {
     margin: 0;
+    padding: 0;
 }
 
 .col-md-5.col-sm-5.attraction-rest {
     height: 100%;
     min-height: 760px;
     background-color: #cff4ff;
+    margin-right: 45px;
+    margin-left: -45px;
+    position: relative;
+}
+
+.col-md-5.col-sm-5.attraction-rest::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    border: 20px solid transparent;
+    border-top: 25px solid #cff4ff;
+    transform: rotate(-90deg);
 }
 
 li.typeof-rest-item {
@@ -1285,7 +1304,90 @@ li.typeof-rest-item {
     width: 120px;
     background-color: #ffffff;
     float: left;
+    margin: 10px 0 0px 10px;
 }
+
 .typeof-rest-wrapp {
     padding-left: 10%;
+    margin-left: 30%;
+}
+
+#attraction-rest-tittle {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+
+.rest-item-p {
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-top: 75px;
+    line-height: 13px;
+}
+
+#rest-item-0 {
+    background-image: url(https://nadv.ru/_v2/images/beach.png)
+}
+
+#rest-item-1 {
+    background-image: url(https://nadv.ru/_v2/images/snowboard.png)
+}
+
+#rest-item-2 {
+    background-image: url(https://nadv.ru/_v2/images/bus.png);
+}
+
+#rest-item-3 {
+    background-image: url(https://nadv.ru/_v2/images/family.png)
+}
+
+#rest-item-4 {
+    background-image: url(https://nadv.ru/_v2/images/boat.png)
+}
+
+#rest-item-5 {
+    background-image: url(https://nadv.ru/_v2/images/rafting.png)
+}
+
+#rest-item-6 {
+    background-image: url(https://nadv.ru/_v2/images/diving.png)
+}
+
+#rest-item-7 {
+    background-image: url(https://nadv.ru/_v2/images/eco-tourism.png)
+}
+
+#rest-item-8 {
+    background-image: url(https://nadv.ru/_v2/images/fountan.png);
+}
+
+#rest-item-9 {
+    background-image: url(https://nadv.ru/_v2/images/speleo.png)
+}
+
+#rest-item-10 {
+    background-image: url(https://nadv.ru/_v2/images/hunt.png)
+}
+
+#rest-item-11 {
+    background-image: url(https://nadv.ru/_v2/images/fishing.png)
+}
+
+#rest-item-12 {
+    background-image: url(https://nadv.ru/_v2/images/etno.png)
+}
+
+#rest-item-13 {
+    background-image: url(https://nadv.ru/_v2/images/food.png)
+}
+
+#rest-item-14 {
+    background-image: url(https://nadv.ru/_v2/images/etno.png)
+}
+
+.typeof-rest-item  {
+    background-repeat: no-repeat;
+    background-position: 40px 20px, 0px 0px, 0px 0px;
+    cursor: pointer;
 }
