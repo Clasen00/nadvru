@@ -52,7 +52,7 @@ a.right.carousel-control,
 a.left.carousel-control {
     width: 3%;
     height: 17%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
     color: #000;
     text-align: center;
     opacity: 1 !important;
@@ -368,7 +368,7 @@ a.right.slider-control,
 a.left.slider-control {
     width: 3%;
     height: 17%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.7);
     color: #000;
     text-align: center;
     opacity: 1 !important;
