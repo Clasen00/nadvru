@@ -1272,7 +1272,8 @@ section.region-attraction {
 
 .region-attraction-container.row,
 ul.typeof-rest-list.col-md-8,
-.attraction-attractions {
+.attraction-attractions,
+.relative.row.showplace-header-row {
     margin: 0;
     padding: 0;
     padding-bottom: 10px;
@@ -1391,4 +1392,35 @@ li.typeof-rest-item {
     background-repeat: no-repeat;
     background-position: 40px 20px, 0px 0px, 0px 0px;
     cursor: pointer;
+}
+
+.showplace-img {
+    height: 100%;
+    min-height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1483919283443-8db97e2bcd81?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size: cover;
+}
+
+.relative.row.showplace-header-row {
+    margin-top: 30px;
+}
+
+.container.showplace-comeback a {
+    color: #0d75c7;
+    font-size: 13pt;
+    border-bottom: 2px dotted #1b8bc2;
+}            
+
+.showplace-region {
+    background: #9bc280ba;
+    margin: -10px 0 0 155px;
+    position: absolute;
+    z-index: 1;
+}
+
+.showplace-region p {
+    font-weight: 600;
+    color: #fff;
+    font-size: 16pt;
+    padding: 10px 15px 0px 15px;
 }
