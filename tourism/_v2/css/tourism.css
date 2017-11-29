@@ -1424,3 +1424,169 @@ li.typeof-rest-item {
     font-size: 16pt;
     padding: 10px 15px 0px 15px;
 }
+
+.tour-place-sect .goback-link {
+	font-size: 13px;
+	color: #0d75c7;
+}
+.tour-place-sect .goback-link a {
+	border-bottom: 1px dashed #0d75c7;
+}
+
+.tour-place-sect.header-img {
+	background-size: cover;
+	background-position: center center;
+	height: 400px;
+	text-align: center;
+}
+
+.tour-place-sect.header-img .inner {
+	height: 400px;
+}
+
+.tour-place-sect .region-link {
+	padding: 10px 15px;
+	background-color: #a7cb6f;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	opacity: 0.9;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.tour-place-sect .region-title {
+	padding: 0px;
+	margin: 173px 0 0 0;
+	color: white;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.tour-place-sect .region-place {
+	color: white;
+	font-size: 20px;
+	margin-top: 15px;
+}
+
+.tour-place-sect .region-type {
+	width: 120px;
+	height: 120px;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #0d75c7;	
+	text-align: center;
+	padding-top: 20px;
+}
+
+.tour-place-sect .region-type span {
+	display: block;
+	font-size: 13px;
+	color: white;
+	margin-top: 20px;
+	width: 100%;
+	padding: 0 20px;
+	line-height: 13px;
+}
+
+.tour-place-sect h2 {
+	color: #333333;
+	font-size: 22px;
+}
+
+.tour-place-sect .borderless {
+	overflow: visible;
+}
+
+.tour-place-sect .borderless .map-img {
+	height: 360px;
+	background-color: #e7f4ff;
+	width: auto;
+	position: relative;
+	left: -150%;
+	float: left;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.tour-place-sect .borderless .map-img img {
+	max-height: 100%;
+}
+
+.tour-place-sect .borderless .map-yandex {
+	height: 520px;
+	width: 800px;
+	position: relative;
+	left: -556px;
+}
+
+.tour-place-sect .borderless .map-yandex #yamap {
+	height: 520px;
+	width: 800px;
+}
+
+.tour-place-contblock {
+	color: #333333;
+	font-size: 17px;
+	line-height: 20px;
+}
+
+.tour-place-sect .photo-title {
+	display: block;
+	color: #333333;
+	font-style: italic;
+	font-size: 13px;
+}
+
+.tour-place-sect .tour-place-content {
+	color: #333333;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+
+@media (max-width : 800px)
+{
+    .tour-place-sect .region-title {
+        padding: 100px 0 0 0;
+        margin: 0;
+    }
+    
+    .tour-place-sect .tour-place-content img {
+        max-width: 100%;
+    }
+    
+    .tour-place-sect .borderless {
+        overflow: hidden;
+    }
+    
+    .tour-place-sect .borderless .map-img {
+        right: 0;
+        width: calc(100% + 30px);
+        margin-left: -30px;
+        padding: 10px;
+        left: auto;
+    }
+    
+    .tour-place-sect .borderless .map-img img {
+        position: absolute;
+        right: 10px;
+        max-height: 96%;
+        top: 2%;
+    }
+    
+    .tour-place-sect .borderless .map-yandex {
+        width: 100%;
+        left: 0;
+    }
+    
+    .tour-place-sect .borderless .map-yandex #yamap {
+        max-width: 100%;
+        max-height: 100%;
+    }    
+}
