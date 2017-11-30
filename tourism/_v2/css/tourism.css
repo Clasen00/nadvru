@@ -351,6 +351,7 @@ li#compare-1 {
 h3.scroll-header {
     font-size: 24px;
     font-weight: bold;
+    padding-top: 0px;
 }
 
 .list-container_item {
@@ -555,7 +556,7 @@ a.right.small-slider-control {
 
 .region-caption {
     font-size: 36px;
-    padding-left: 5%;
+    padding-left: 1%;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -1129,7 +1130,8 @@ li.cards-counter {
 }
 
 .tourism-type-form select {
-    font-size: 32px;
+    font-size: 23px;
+    line-height: 23px;
     width: 100%;
     background-color: #e5f3fe;
     border: none;
@@ -1140,6 +1142,10 @@ li.cards-counter {
     -webkit-appearance: none;
     cursor: pointer;
     color: #0393d0;
+    white-space: pre-line;
+    padding-right: 65px;
+    text-align-last: left;
+    font-weight: 600;
 }
 
 .gid-option {
@@ -1174,6 +1180,7 @@ li.cards-counter {
 
 section.region-description {
     margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .region-description__h1-tittle {
@@ -1589,4 +1596,39 @@ li.typeof-rest-item {
         max-width: 100%;
         max-height: 100%;
     }    
+}
+
+.region-caption {
+    font-size: 36px;
+    padding-left: 0%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.col-md-12.col-sm-12.region-type-wrapp {
+    padding-left: 0;
+}
+
+.region-widget {
+    display: flex;
+    padding-bottom: 20px;
+    background-repeat: no-repeat !important;
+    background-size: 40px !important;
+    background-position: 0px 0px !important;
+    padding-left: 60px;
+}
+
+.region-widgets {
+    font-size: 26px;
+    margin-top: 70px;
+    color: #1b8bc2;
+    line-height: 26px;
+}
+
+#region-weather-widget {
+    background: url(https://nadv.ru/_v2/images/cloud-sun.svg);
+}
+
+#region-time-widget {
+    background: url(https://nadv.ru/_v2/images/clock.svg);
 }
