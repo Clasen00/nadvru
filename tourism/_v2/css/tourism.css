@@ -352,6 +352,8 @@ h3.scroll-header {
     font-size: 24px;
     font-weight: bold;
     padding-top: 0px;
+    padding-bottom: 0;
+    margin-top: 10px;
 }
 
 .list-container_item {
@@ -363,6 +365,9 @@ h3.scroll-header {
     line-height: 16px;
     background-position-y: top;
     padding-left: 1em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 a.right.slider-control,
@@ -1123,10 +1128,11 @@ li.cards-counter {
     max-width: 275px;
     min-width: 275px;
     height: 100%;
-    min-height: 315px;
-    padding: 0 0 3rem 0 !important;
+    min-height: 360px;
+    padding: 0 0 0rem 0 !important;
     margin: 10px 0 5px 10px;
     float: left;
+    position: relative;
 }
 
 .tourism-type-form select {
@@ -1632,3 +1638,20 @@ li.typeof-rest-item {
 #region-time-widget {
     background: url(https://nadv.ru/_v2/images/clock.svg);
 }
+
+/*
+.typeof-rest-item:hover {
+    background-color: #0d75c7;
+    color: #fff;
+}
+
+#rest-item-0.typeof-rest-item:hover {
+   background-image: url(https://nadv.ru/_v2/images/snowboard_white.png);
+}
+
+#rest-item-1.typeof-rest-item:hover {
+   background-image: url(https://nadv.ru/_v2/images/snowboard_white.png);
+}
+*/
+
+
