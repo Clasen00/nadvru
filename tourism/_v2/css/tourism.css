@@ -1738,16 +1738,20 @@ li.typeof-rest-item {
 h3.tour-calendar-scroll-header {
     padding-right: 30px;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
     line-height: 20px;
-    margin: 0
+    margin: 0;
+    height: 70px;
 }
 
 
-.tour-calendar-container > .col-md-6.col-sm-5 p {
+.tour-calendar-container > .col-md-6.col-sm-5 .list-container_item {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 16px;
     padding-left: 20px;
+    background: none;
+    position: relative !important;
+    margin-bottom: 0;
 }
 
 .tour-calendar-container > *:hover {
@@ -1755,3 +1759,17 @@ h3.tour-calendar-scroll-header {
     background-color: #e3f6ff;
 }
 
+.tour-calendar-container > .col-md-6.col-sm-5 #ivent-place {
+    padding-left: 25px !important;
+    margin-left: 20px;
+    margin-top: 15px;
+    position: relative;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
+.tour-card-caption {
+    bottom: 60%;
+    left: 85%;
+    width: 18%;
+}
