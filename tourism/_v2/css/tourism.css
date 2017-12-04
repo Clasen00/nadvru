@@ -462,6 +462,7 @@ mobile-slider-control:hover {
 p#ivent-about {
     font-size: 16px;
     float: left;
+    padding-left: 0;
 }
 
 #ivent-place {
