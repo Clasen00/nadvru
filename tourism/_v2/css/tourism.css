@@ -1691,7 +1691,7 @@ li.typeof-rest-item {
 }
 
 .tour-calendar-caption {
-    bottom: 70% !important;
+    bottom: 71% !important;
 }
 
 .tour-calendar-ivent-about {
@@ -1821,6 +1821,7 @@ button.calendar-day-butt {
     border-radius: 3px;
     color: #1b8bc2;
     margin-right: 6px;
+    font-weight: 400;
 }
 
 #sandbox-range {
@@ -1860,6 +1861,28 @@ th.datepicker-switch, th.prev, th.next {
     color: #0493d0;
 }
 
+input.input-sm.form-control {
+    background-image: url(https://nadv.ru/_v2/images/cal-ico_03.png);
+    background-repeat: no-repeat;
+    background-position: 12%;
+    font-size: 12px;
+    text-decoration: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: #7cb3e2;
+    font-weight: 600;
+    height: 50px;
+}
+
+.input-group-addon {
+    background: none !important;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+span.input-group-addon {
+    font-size: 0;
+}
+
 @media (max-width: 1366px) {
   .container.tourism-section-container {
     width: 100%;
@@ -1871,3 +1894,5 @@ th.datepicker-switch, th.prev, th.next {
     margin-right: 4em;
 }  
 }
+
+
