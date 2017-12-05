@@ -441,14 +441,20 @@
     </div>
   </div>
    <!--начало макета-->
+<!--   Javascript-->
    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.ru.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.standalone.min.css"></script>
+
+   <script src="http://momentjs.com/downloads/moment.js"></script>
+  <script src="http://momentjs.com/downloads/moment-with-locales.js"></script>
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/ru.js"></script>-->
+<!--  css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.standalone.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/ru.js"></script>
+
 
   <section class="tourism-section">
   
@@ -671,12 +677,12 @@
 
     <script>
     $('#sandbox-container').datepicker({
-    local: "ru",
+    locale: 'ru',
     todayHighlight: true
 });
 
     $('#sandbox-range .input-daterange').datepicker({
-    language: "ru",
+    locale: 'ru',
     todayHighlight: true
 });    
     </script>
