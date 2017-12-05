@@ -441,25 +441,56 @@
     </div>
   </div>
    <!--начало макета-->
-   
+   <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <link id="bsdp-css" href="bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet">
-  <script>
-    $('#sandbox-container').datepicker({
-    maxViewMode: 1,
-    language: "ru",
-    todayHighlight: true
-});
-    
-    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/locales/bootstrap-datepicker.ru.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.standalone.min.css"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/locale/ru.js"></script>
+
   <section class="tourism-section">
-   <div id="sandbox-container"></div>
-<div class="container">
+  
+<div class="container tourism-section-container">
       <h2 class="region-caption">Календарь событий</h2>
-      <div class="col-md-12 col-sm-12 tour-calendar-wrapp cal-wrapp">
-        <div class="col-md-9 col-sm-9 relative tour-calendar-image ivent-image">
+    <div class="col-md-12 col-sm-12 cal-wrapp" style="">
+        <div class="col-md-3 tourism-calendar-wrapper" style="">
+        <h4 class="calendar-h4-header">Регион</h4>
+        <select name="tur-region" class="tur-cal-select" id="tur-region">
+            <option value="region-blag" class="tur-cal-option">Амурская область</option>
+            <option value="region-bir" class="tur-cal-option">Еврейская автономная область</option>
+            <option value="region-kam" class="tur-cal-option">Камчатский край</option>
+            <option value="region-mag" class="tur-cal-option">Магаданская область</option>
+            <option value="region-vlad" class="tur-cal-option">Приморский край</option>
+            <option value="region-yakut" class="tur-cal-option">Республика Саха (Якутия)</option>
+            <option value="region-sakha" class="tur-cal-option">Сахалинская область</option>
+            <option value="region-khabar" class="tur-cal-option">Хабаровский край</option>
+            <option value="region-anad" class="tur-cal-option">Чукотский автономный округ</option>
+        </select>        
+        <h4 class="calendar-h4-header">Вид события</h4>
+        <select name="tur-region" class="tur-cal-select" id="tur-ivent">
+            <option value="ivent-fest" class="tur-cal-option">Фестиваль</option>
+            <option value="region-conc" class="tur-cal-option">Концерт</option>
+            <option value="region-hol" class="tur-cal-option">Праздники</option>
+        </select>
+        <form action="">
+            <button class="calendar-day-butt" id="incoming-hol">Ближайшие выходные</button>
+            <button class="calendar-day-butt" id="incomin-month">Ближайший месяц</button>
+        </form>
+        <div id="sandbox-container"></div>
+        <h4 class="calendar-h4-header">Выберите промежуток</h4>
+        <div id="sandbox-range">
+        <div class="input-daterange input-group" id="datepicker">
+        <input type="text" class="input-sm form-control" name="start" />
+        <span class="input-group-addon">|</span>
+        <input type="text" class="input-sm form-control" name="end" />
+        </div>
+        </div>
+        <button id="picking">Подобрать</button>
+        </div>
+        <div class="col-md-9 tour-calendar-wrapp" style="">
+        <div class="col-md-12 col-sm-12 relative tour-calendar-image ivent-image">
           <div class="tour-calendar-caption cal-caption">
             <p id="cal-num">25</p>
             <p id="cal-month">ноябрь</p>
@@ -468,7 +499,7 @@
         <div class="tour-calendar-ivent-type">Туризм</div>
         </div>
 
-        <div class="col-md-9 col-sm-9 tour-calendar-ivent-wrapp ivent-wrapp">
+        <div class="col-md-12 col-sm-12 tour-calendar-ivent-wrapp ivent-wrapp">
           <div class="col-md-12 col-sm-12 tour-calendar-text-wrapp ivent-text-wrapp">
             <h2 class="tour-calendar-ivent-capt left" id="ivent-capt">
                             Джип-тур на Пидан группой не более 10 человек
@@ -479,6 +510,8 @@
               <br> Послушать из уст экскурсовода загадочные и удивительные истории этих мест. Поездки как и большой группой так и комфортные поездки на внедорожнике.</p>
           </div>
         </div>
+        </div>
+
       </div>
 <!--      карточки-->
       <div class="col-md-10 col-sm-12 attraction-attractions">
@@ -631,14 +664,27 @@
      
     </div>   
 
-           </div>
+    </div>
     </div>   
    
   </section>
 
-  
+    <script>
+    $('#sandbox-container').datepicker({
+    local: "ru",
+    todayHighlight: true
+});
+
+    $('#sandbox-range .input-daterange').datepicker({
+    language: "ru",
+    todayHighlight: true
+});    
+    </script>
 
   <script>
+      
+      
+      
     $("#left-scroller").click(function(event) {
       $('.scroll-container').animate({
         scrollLeft: '+=1500'
